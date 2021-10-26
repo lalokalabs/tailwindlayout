@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-header {
+    @apply text-3xl mb-6;
+}
+
+.section-header {
+    @apply text-2xl my-6;
+}
+
+.btn {
+    @apply rounded-lg focus:outline-none px-4 py-1;
+}
+
+.btn-primary {
+  @apply bg-indigo-600 text-white;
+}
+
+.btn-lg {
+    @apply text-xl;
+}
