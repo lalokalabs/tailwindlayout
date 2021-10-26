@@ -1,0 +1,41 @@
+---
+title: Ribbon at corner
+description: Ribbon at corner
+alt: Ribbon at corner
+---
+
+<h3 class="section-header">Rounded Number Indicator</h3>
+
+<base-snippet>
+
+  <template v-slot:preview>
+    <div class="relative bg-white border w-56 h-56 overflow-hidden">
+      <div class="absolute left-0 top-0 h-16 w-16">
+        <div class="absolute transform -rotate-45 bg-gray-600 text-center text-white font-semibold py-1"
+          style="left: -34px;top: 32px;width: 170px;">Popular</div>
+      </div>
+    </div>
+  </template>
+
+  ```html
+  <div class="relative overflow-hidden w-56 h-56 bg-white border">
+    <div class="absolute left-0 top-0 h-16 w-16">
+      <div class="absolute transform -rotate-45 bg-gray-600 text-center text-white font-semibold py-1"
+        style="left: -34px;top: 32px;width: 170px;">Popular</div>
+    </div>
+  </div>
+  ```
+
+  <template v-slot:source>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/QzuVb3fznZ">Live Edit</a>
+  </template>
+
+</base-snippet>
+
+<h3 class="section-header">Related</h3>
+
+<div class="flex flex-wrap">
+  <card-avatar></card-avatar>
+  <card-avatar-stack></card-avatar-stack>
+  <card-avatar-initial></card-avatar-initial>
+</div>
