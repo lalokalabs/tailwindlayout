@@ -1,22 +1,31 @@
 <template>
-  <base-card :slug="slug" :label="label">
+  <base-card
+    :slug="slug"
+    :label="label"
+    :centered="false"
+    custom_class="h-full"
+  >
     <!-- card preview -->
 
-    <div class="relative w-32 h-10 bg-indigo-100 border border-indigo-200">
+    <div class="relative h-full bg-indigo-50">
+      <!-- right side -->
       <div
         class="
           absolute
-          top-0
           right-0
+          top-2/4
           transform
-          translate-x-1/2
           -translate-y-1/2
-          w-4
-          h-4
+          w-6
+          h-10
           bg-indigo-500
-          rounded-full
+          text-white
+          flex
+          items-center
+          justify-center
         "
       ></div>
+      <!-- end right side -->
     </div>
 
     <!-- end card preview -->

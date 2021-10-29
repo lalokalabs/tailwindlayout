@@ -1,8 +1,6 @@
 <template>
   <base-card :slug="slug" :label="label">
-    <div class="p-2 bg-indigo-400 w-16 text-white text-xs text-center">
-      Centered
-    </div>
+    <div class="p-2 bg-indigo-400 text-white text-xs text-center">Centered</div>
   </base-card>
 </template>
 

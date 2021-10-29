@@ -1,21 +1,13 @@
 <template>
-  <base-card :slug="slug" :label="label">
+  <base-card :slug="slug" :label="label" :centered="false" custom_class="h-full">
     <!-- card preview -->
 
-    <div
-      style="min-width: 3rem"
-      class="
-        inline-flex
-        items-center
-        justify-center
-        h-12
-        text-xl text-white
-        bg-indigo-500
-        rounded-full
-        px-1
-      "
-    >
-      4
+    <div class="relative h-full bg-indigo-50">
+      <div
+        class="absolute top-0 right-0 bg-indigo-500 text-white py-1 px-1 text-xs"
+      >
+        FIXED
+      </div>
     </div>
 
     <!-- end card preview -->

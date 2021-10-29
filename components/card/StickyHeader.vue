@@ -1,9 +1,9 @@
 <template>
-  <base-card :slug="slug" :label="label">
+  <base-card :slug="slug" :label="label" :centered="false" customClass="h-full">
     <!-- card preview -->
 
-    <div class="w-full border border-indigo-50">
-      <header class="sticky top-0 bg-indigo-100 shadow px-2 py-1 text-xs">
+    <div class="w-full h-full text-xs">
+      <header class="sticky top-0 bg-indigo-100 border-b border-indigo-300 px-2 py-1">
         Header
       </header>
       <main class="px-2 py-1">

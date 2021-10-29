@@ -4,9 +4,7 @@ description: Sticky Header
 alt: Sticky Header
 ---
 
-<h3 class="section-header">Rounded Number Indicator</h3>
-
-<base-snippet>
+<base-snippet :centered_preview="false" custom_preview_class="h-36">
 
   <template v-slot:preview>
     <div class="w-full">

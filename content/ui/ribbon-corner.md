@@ -4,9 +4,9 @@ description: Ribbon at corner
 alt: Ribbon at corner
 ---
 
-<h3 class="section-header">Rounded Number Indicator</h3>
+<h3 class="section-header">Ribbon at corner</h3>
 
-<base-snippet>
+<base-snippet :centered_preview="false" custom_preview_class="flex items-center justify-center h-64">
 
   <template v-slot:preview>
     <div class="relative bg-white border w-56 h-56 overflow-hidden">

@@ -25,10 +25,7 @@
         shadow-xs
       "
     >
-      <div
-        class="flex justify-center items-center p-2 h-full box-border"
-        :class="flexClass"
-      >
+      <div :class="positionClass">
         <slot></slot>
       </div>
     </div>
@@ -59,11 +56,24 @@ export default {
       type: String,
       required: true,
     },
-    flexClass: {
+    centered: {
+      type: Boolean,
+      default: true,
+    },
+    custom_class: {
       type: String,
-      default: "flex-row",
+      default: "",
     },
   },
   data: {},
+  computed: {
+    positionClass: function () {
+      if (!this.centered) {
+        return this.custom_class;
+      }
+
+      return "flex justify-center items-center p-2 h-full box-border";
+    },
+  },
 };
 </script>

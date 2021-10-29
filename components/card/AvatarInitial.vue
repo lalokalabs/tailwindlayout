@@ -7,8 +7,8 @@
         inline-flex
         items-center
         justify-center
-        w-8
-        h-8
+        w-12
+        h-12
         text-white
         bg-indigo-500
         rounded-full

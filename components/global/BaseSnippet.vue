@@ -1,6 +1,6 @@
 <template>
   <div class="shadow rounded-lg overflow-hidden">
-    <div class="flex items-center justify-center h-32 bg-white overflow-auto">
+    <div class="bg-white" :class="previewClass">
       <slot name="preview"></slot>
     </div>
     <div>
@@ -11,3 +11,28 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    centered_preview: {
+      type: Boolean,
+      default: true,
+    },
+    custom_preview_class: {
+      type: String,
+      default: "",
+    },
+  },
+  data: {},
+  computed: {
+    previewClass: function () {
+      if (!this.centered_preview) {
+        return this.custom_preview_class;
+      }
+
+      return "flex items-center justify-center h-32 overflow-auto";
+    },
+  },
+};
+</script>

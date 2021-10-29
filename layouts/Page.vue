@@ -7,7 +7,7 @@
           <sidebar></sidebar>
         </div>
       </div>
-      <div class="flex-1 min-w-0 overflow-y-auto bg-gray-100">
+      <div class="flex-1 min-w-0 overflow-y-auto">
         <div class="px-4 py-6">
           <Nuxt />
         </div>
