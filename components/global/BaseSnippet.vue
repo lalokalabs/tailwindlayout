@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow rounded-lg overflow-hidden">
+  <div class="border shadow rounded-lg overflow-hidden">
     <div class="bg-white" :class="previewClass">
       <slot name="preview"></slot>
     </div>

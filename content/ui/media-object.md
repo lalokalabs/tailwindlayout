@@ -136,7 +136,7 @@ alt: Media Object
       <!-- nested media object -->
       <div class="bg-white p-8">
         <div class="flex items-start">
-          <img class="mr-4 w-16"
+          <img class="mr-4 w-12"
             src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
             alt="" />
           <div class="flex-1">
@@ -144,7 +144,7 @@ alt: Media Object
             <p>Lorem ipsum dolor sit amet</p>
             <!-- nested media object -->
             <div class="mt-6 flex items-start">
-              <img class="mr-4 w-16"
+              <img class="mr-4 w-12"
                 src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt="" />
               <div class="flex-1">
@@ -152,7 +152,7 @@ alt: Media Object
                 <p>Lorem ipsum dolor sit amet</p>
                 <!-- nested media object -->
                 <div class="mt-6 flex items-start">
-                  <img class="mr-4 w-16"
+                  <img class="mr-4 w-12"
                     src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
                     alt="" />
                   <div class="flex-1">

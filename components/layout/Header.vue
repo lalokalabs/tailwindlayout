@@ -1,11 +1,15 @@
 <template>
   <header class="shadow-sm">
-    <div class="container mx-auto flex justify-between shadow-sm py-4">
+    <div
+      class="max-w-sm md:container mx-auto flex items-center justify-between shadow-sm py-4"
+    >
       <NuxtLink class="font-bold" to="/">Tailwind Layout</NuxtLink>
 
-      <AppSearchInput />
+      <div class="w-56 sm:w-96">
+        <AppSearchInput />
+      </div>
 
-      <div>
+      <div class="hidden sm:block">
         <ul class="flex space-x-4">
           <li><a href="/">Github</a></li>
         </ul>

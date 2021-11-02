@@ -1,7 +1,14 @@
 <template>
-  <div class="w-96 relative">
+  <div class="w-full relative">
     <input
-      class="border px-2 py-1 focus:outline-none w-full"
+      class="
+        border border-indigo-300
+        px-2
+        py-1
+        focus:outline-none
+        w-full
+        rounded-md
+      "
       v-model="searchQuery"
       type="search"
       autocomplete="off"

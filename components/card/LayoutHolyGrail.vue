@@ -9,7 +9,7 @@
 
     <div class="h-full flex flex-col">
       <header class="bg-indigo-50 border-b border-indigo-300 text-xs px-1">Header</header>
-      <div class="flex-1 flex flex-col sm:flex-row">
+      <div class="flex-1 flex flex-row">
         <main class="flex-1 bg-indigo-50 border-l border-r border-indigo-300 text-xs px-1">Content</main>
         <nav class="order-first w-4 bg-indigo-50 text-xs px-1">L</nav>
         <aside class="w-4 bg-indigo-50 text-xs px-1">R</aside>

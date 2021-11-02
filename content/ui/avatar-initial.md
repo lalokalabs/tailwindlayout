@@ -9,13 +9,19 @@ alt: Avatar Initial
 <base-snippet>
 
   <template v-slot:preview>
-    <div class="inline-flex items-center justify-center w-12 h-12 text-2xl text-white bg-indigo-500 rounded-full">TW
+    <div class="space-x-2">
+      <div class="inline-flex items-center justify-center w-12 h-12 text-xl text-white bg-indigo-500 rounded-full">AW
+      </div>
+      <div class="inline-flex items-center justify-center w-12 h-12 text-xl text-white bg-indigo-500 rounded-full">ML
+      </div>
+      <div class="inline-flex items-center justify-center w-12 h-12 text-xl text-white bg-indigo-500 rounded-full">AH
+      </div>
     </div>
   </template>
 
   <!-- snippet -->
   ```html
-  <div class="inline-flex items-center justify-center w-12 h-12 text-2xl text-white bg-indigo-500 rounded-full">
+  <div class="inline-flex items-center justify-center w-12 h-12 text-xl text-white bg-indigo-500 rounded-full">
     TW
   </div>
   ```

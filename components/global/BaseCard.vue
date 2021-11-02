@@ -5,10 +5,9 @@
       justify-start
       items-center
       p-4
-      w-24
+      w-32
       leading-6
       no-underline
-      md:w-32
       box-border
     "
     :to="{ name: 'ui-slug', params: { slug: slug } }"
