@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="text-2xl mb-6">Component List</h3>
+    <h3 class="text-2xl mb-6">Examples</h3>
 
     <ul class="sidebar-navigation text-indigo-500">
       <li v-for="ui of ui_list">
@@ -24,7 +24,7 @@ export default {
   async fetch() {
     this.ui_list = await this.$content("ui")
       .only(["title", "description", "img", "slug", "author"])
-      .sortBy("createdAt", "asc")
+      .sortBy("title", "asc")
       .fetch();
   },
 };

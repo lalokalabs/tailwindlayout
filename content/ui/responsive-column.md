@@ -4,7 +4,7 @@ description: Responsive Column
 alt: Responsive Column
 ---
 
-<p class="text-xs mb-4">On large screen, display div as column. On mobile, display div as row</p>
+<p class="page-desc">On mobile, display div as row. On larger screen, display div as column. </p>
 
 <base-snippet :centered_preview="false" custom_preview_class="h-auto md:h-72">
 

@@ -14,10 +14,10 @@
       autocomplete="off"
       placeholder="Search"
     />
-    <ul class="absolute z-10 bg-white shadow w-full" v-if="ui_list.length">
+    <ul class="absolute z-10 bg-white shadow-lg border divide-y w-full" v-if="ui_list.length">
       <li class="" v-for="ui of ui_list" :key="ui.slug">
         <NuxtLink
-          class="px-2 py-2 font-semibold"
+          class="inline-block w-full p-2 font-semibold hover:bg-indigo-50"
           :to="{ name: 'ui-slug', params: { slug: ui.slug } }"
         >
           {{ ui.title }}

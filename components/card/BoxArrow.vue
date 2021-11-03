@@ -1,6 +1,6 @@
 <template>
   <base-card :slug="slug" :label="label">
-    <div class="relative bg-indigo-50 p-2 rounded-lg border border-indigo-500 h-10 w-full">
+    <div class="relative bg-indigo-50 p-2 rounded-lg border border-indigo-300 h-10 w-full">
       
       <!-- bottom left arrow -->
       <div
@@ -15,7 +15,7 @@
           w-2
           h-2
           bg-indigo-50
-          border-r border-b border-indigo-500
+          border-r border-b border-indigo-300
         "
       ></div>
       <!-- end bottom left arrow -->

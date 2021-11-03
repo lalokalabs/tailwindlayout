@@ -8,7 +8,7 @@ alt: Layout Sidebar
 
   <template v-slot:preview>
     <div class="h-full flex">
-      <nav class="w-56 flex-none bg-indigo-200 p-2">
+      <nav class="w-20 sm:w-56 flex-none bg-indigo-200 p-2">
         Sidebar
       </nav>
       <main class="flex-1 min-w-0 overflow-auto bg-indigo-50 p-2">

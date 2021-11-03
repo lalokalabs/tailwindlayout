@@ -18,7 +18,7 @@ import Vue from "vue";
 
 export default {
   async asyncData({ $content, params }) {
-    const ui_list = await $content("ui", params.slug).fetch();
+    const ui_list = await $content("ui", params.slug).sortBy('title').fetch();
 
     return {
       ui_list,
