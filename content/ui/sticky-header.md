@@ -17,17 +17,17 @@ alt: Sticky Header
     </div>
   </template>
 
-  ```html
-  <div>
-    <!-- sticky header -->
-    <header class="sticky top-0 ...">Sticky header</header>
-    <!-- end sticky header -->
+```html
+<div>
+  <!-- sticky header -->
+  <header class="sticky top-0 ...">Sticky header</header>
+  <!-- end sticky header -->
 
-    <main class="p-4">
-      <p class="mb-6">Long content</p>
-    </main>
-  </div>
-  ```
+  <main class="p-4">
+    <p class="mb-6">Long content</p>
+  </main>
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/6MiJea4Gaz">Live Edit</a>
@@ -35,10 +35,4 @@ alt: Sticky Header
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="layout"></related-ui>

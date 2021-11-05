@@ -28,16 +28,16 @@ alt: Media Object
     </div>
   </template>
 
-  ```html
-  <div class="flex items-start">
-    <img class="mr-4 ..." src="..." alt="" />
+```html
+<div class="flex items-start">
+  <img class="mr-4 ..." src="..." alt="" />
 
-    <div class="flex-1">
-      <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
+  <div class="flex-1">
+    <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
+    <p>Lorem ipsum dolor sit amet</p>
   </div>
-  ```
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/7oMi0icAht">Live Edit</a>
@@ -69,16 +69,16 @@ alt: Media Object
     </div>
   </template>
 
-  ```html
-  <div class="flex items-start">
-    <img class="mr-4 order-1 ..." src="..." alt="" />
+```html
+<div class="flex items-start">
+  <img class="mr-4 order-1 ..." src="..." alt="" />
 
-    <div class="flex-1">
-      <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
+  <div class="flex-1">
+    <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
+    <p>Lorem ipsum dolor sit amet</p>
   </div>
-  ```
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/7oMi0icAht">Live Edit</a>
@@ -110,16 +110,16 @@ alt: Media Object
     </div>
   </template>
 
-  ```html
-  <div class="flex items-start">
-    <img class="mr-4 self-center ..." src="..." alt="" />
+```html
+<div class="flex items-start">
+  <img class="mr-4 self-center ..." src="..." alt="" />
 
-    <div class="flex-1">
-      <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
+  <div class="flex-1">
+    <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
+    <p>Lorem ipsum dolor sit amet</p>
   </div>
-  ```
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/JTs2tDsFOg">Live Edit</a>
@@ -171,42 +171,42 @@ alt: Media Object
     </div>
   </template>
 
-  ```html
-  <div class="flex items-start">
-    <img class="mr-4 ..." src="..." alt="" />
+```html
+<div class="flex items-start">
+  <img class="mr-4 ..." src="..." alt="" />
 
-    <div class="flex-1">
-      <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
-      <p>Lorem ipsum dolor sit amet</p>
+  <div class="flex-1">
+    <h3 class="text-xl font-medium mb-2">Standard Media Object</h3>
+    <p>Lorem ipsum dolor sit amet</p>
 
-      <!-- nested media object -->
+    <!-- nested media object -->
 
-      <div class="mt-6 flex items-start">
-        <img class="mr-4 ..." src="..." alt="" />
+    <div class="mt-6 flex items-start">
+      <img class="mr-4 ..." src="..." alt="" />
 
-        <div class="flex-1">
-          <h3 class="text-xl font-medium mb-2">Nested Media Object</h3>
-          <p>Lorem ipsum dolor sit amet</p>
+      <div class="flex-1">
+        <h3 class="text-xl font-medium mb-2">Nested Media Object</h3>
+        <p>Lorem ipsum dolor sit amet</p>
 
-          <!-- nested media object -->
+        <!-- nested media object -->
 
-          <div class="mt-6 flex items-start">
-            <img class="mr-4 ..." src="..." alt="" />
+        <div class="mt-6 flex items-start">
+          <img class="mr-4 ..." src="..." alt="" />
 
-            <div class="flex-1">
-              <h3 class="text-xl font-medium mb-2">Nested Nested Media Object</h3>
-              <p>Lorem ipsum dolor sit amet</p>
-            </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-medium mb-2">Nested Nested Media Object</h3>
+            <p>Lorem ipsum dolor sit amet</p>
           </div>
-
-          <!-- end nested media object -->
         </div>
-      </div>
 
-      <!-- end nested media object -->
+        <!-- end nested media object -->
+      </div>
     </div>
+
+    <!-- end nested media object -->
   </div>
-  ```
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/Qlkjt6pWoY">Live Edit</a>
@@ -214,10 +214,4 @@ alt: Media Object
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="media"></related-ui>

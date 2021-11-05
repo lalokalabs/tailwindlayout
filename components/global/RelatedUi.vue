@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3 class="section-header">Related</h3>
     <div class="flex flex-wrap">
       <component
         v-for="ui of ui_list"
@@ -14,24 +15,26 @@
 </template>
 
 <script>
-import Vue from "vue";
-
 export default {
-  async asyncData({ $content, params }) {
-    const ui_list = await $content("ui", params.slug).sortBy("title").fetch();
-
-    return {
-      ui_list,
-    };
+  props: {
+    search_key: {
+      type: String,
+      required: true,
+    },
   },
-
   data() {
     return {
       ui_list: [],
     };
   },
-  created() {},
-  mounted() {},
+  computed: {},
+  async fetch() {
+    this.ui_list = await this.$content("ui")
+      .only(["title", "description", "img", "slug", "author"])
+      .sortBy("title", "asc")
+      .search(this.search_key)
+      .fetch();
+  },
   methods: {
     previewComponent(slug) {
       return "card-" + slug;

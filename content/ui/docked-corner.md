@@ -1,6 +1,6 @@
 ---
 title: Docked Corner
-description: Docked Corner
+description: Docked Corner. Use case indicator
 alt: Docked Corner
 ---
 
@@ -15,14 +15,15 @@ alt: Docked Corner
     </div>
   </template>
 
-  ```html
-  <div class="relative ...">
-    <!-- docked top right corner -->
-    <div class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 ...">
-    </div>
-    <!-- end docked top right corner -->
-  </div>
-  ```
+```html
+<div class="relative ...">
+  <!-- docked top right corner -->
+  <div
+    class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 ..."
+  ></div>
+  <!-- end docked top right corner -->
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/uBxbMIOTMt">Live Edit</a>
@@ -41,14 +42,15 @@ alt: Docked Corner
     </div>
   </template>
 
-  ```html
-  <div class="relative ...">
-    <!-- docked bottom right corner -->
-    <div class="absolute bottom-0 right-0 transform translate-x-1/2 translate-y-1/2 ...">
-    </div>
-    <!-- end docked bottom right corner -->
-  </div>
-  ```
+```html
+<div class="relative ...">
+  <!-- docked bottom right corner -->
+  <div
+    class="absolute bottom-0 right-0 transform translate-x-1/2 translate-y-1/2 ..."
+  ></div>
+  <!-- end docked bottom right corner -->
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/uBxbMIOTMt">Live Edit</a>
@@ -56,10 +58,4 @@ alt: Docked Corner
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="corner"></related-ui>

@@ -13,17 +13,17 @@ alt: Centering
     </div>
   </template>
 
-  ```html
-  <div class="flex items-center justify-center">
-    <!-- centered content -->
+```html
+<div class="flex items-center justify-center">
+  <!-- centered content -->
 
-    <div class="...">
-      ...
-    </div>
-
-    <!-- end centered content -->
+  <div class="...">
+    ...
   </div>
-  ```
+
+  <!-- end centered content -->
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/luraw1qDxs">Live Edit</a>
@@ -31,10 +31,4 @@ alt: Centering
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="centering"></related-ui>

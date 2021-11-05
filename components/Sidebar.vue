@@ -1,11 +1,9 @@
 <template>
   <div>
-    <h3 class="text-2xl mb-6">Examples</h3>
-
-    <ul class="sidebar-navigation text-indigo-500">
+    <ul class="sidebar-navigation text-sm text-indigo-500">
       <li v-for="ui of ui_list">
         <NuxtLink
-          class="hover:underline hover:text-indigo-600"
+          class="block hover:bg-indigo-50 py-2 px-2"
           :to="{ name: 'ui-slug', params: { slug: ui.slug } }"
           >{{ ui.title }}</NuxtLink
         >

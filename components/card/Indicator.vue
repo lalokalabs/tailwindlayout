@@ -3,19 +3,19 @@
     <!-- card preview -->
 
     <div
-      style="min-width: 3rem"
+      style="min-width: 2.5rem"
       class="
         inline-flex
         items-center
         justify-center
-        h-12
+        h-10
         text-xl text-white
         bg-indigo-500
         rounded-full
         px-1
       "
     >
-      4
+      1000+
     </div>
 
     <!-- end card preview -->

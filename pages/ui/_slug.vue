@@ -4,14 +4,30 @@
 
     <!-- ads -->
 
-    <div class="bg-gradient-to-l from-indigo-200 border border-indigo-200 shadow-md p-2 rounded-lg mb-10">
-      <a class="hover:underline" href="https://otp.dev">Need OTP feature in your project? Save yourself the headache by using this <span class="font-bold">crazy simple OTP API</span> by GETOTP!</a>
+    <div
+      class="
+        bg-gradient-to-l
+        from-indigo-200
+        border border-indigo-200
+        shadow-md
+        p-2
+        rounded-lg
+        mb-10
+      "
+    >
+      <a class="hover:underline" href="https://otp.dev"
+        >Need OTP feature in your project? Save yourself the headache by using
+        this <span class="font-bold">crazy simple OTP API</span> by GETOTP!</a
+      >
     </div>
 
     <!-- end ads -->
 
     <nuxt-content :document="article" />
-    <prev-next :prev="prev" :next="next" />
+
+    <div class="mt-6">
+      <prev-next :prev="prev" :next="next" />
+    </div>
   </article>
 </template>
 
@@ -24,7 +40,7 @@ export default {
 
     const [prev, next] = await $content("ui")
       .only(["title", "slug"])
-      .sortBy("createdAt", "asc")
+      .sortBy("title", "asc")
       .surround(params.slug)
       .fetch();
 

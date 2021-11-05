@@ -17,15 +17,15 @@ alt: Fixed at side
 
   </template>
 
-  ```html
-  <div class="relative ...">
-    <!-- fixed right side -->
-    <div
-      class="absolute right-0 top-2/4 transform -translate-y-1/2 w-8 h-24 bg-indigo-500 text-white flex items-center justify-center">
-    </div>
-    <!-- end fixed right side -->
-  </div>
-  ```
+```html
+<div class="relative ...">
+  <!-- fixed right side -->
+  <div
+    class="absolute right-0 top-2/4 transform -translate-y-1/2 w-8 h-24 bg-indigo-500 text-white flex items-center justify-center"
+  ></div>
+  <!-- end fixed right side -->
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/omYUfk3PeV">Live Edit</a>
@@ -46,15 +46,15 @@ alt: Fixed at side
 
   </template>
 
-  ```html
-  <div class="relative ...">
-    <!-- fixed left side -->
-    <div
-      class="absolute top-0 left-2/4 transform -translate-x-1/2 w-48 h-8 bg-indigo-500 text-white flex items-center justify-center">
-    </div>
-    <!-- end fixed left side -->
-  </div>
-  ```
+```html
+<div class="relative ...">
+  <!-- fixed left side -->
+  <div
+    class="absolute top-0 left-2/4 transform -translate-x-1/2 w-48 h-8 bg-indigo-500 text-white flex items-center justify-center"
+  ></div>
+  <!-- end fixed left side -->
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/omYUfk3PeV">Live Edit</a>
@@ -75,15 +75,15 @@ alt: Fixed at side
 
   </template>
 
-  ```html
-  <div class="relative ...">
-    <!-- fixed top side -->
-    <div
-      class="absolute top-0 left-2/4 transform -translate-x-1/2 w-48 h-8 bg-indigo-500 text-white flex items-center justify-center">
-    </div>
-    <!-- end fixed top side -->
-  </div>
-  ```
+```html
+<div class="relative ...">
+  <!-- fixed top side -->
+  <div
+    class="absolute top-0 left-2/4 transform -translate-x-1/2 w-48 h-8 bg-indigo-500 text-white flex items-center justify-center"
+  ></div>
+  <!-- end fixed top side -->
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/omYUfk3PeV">Live Edit</a>
@@ -104,15 +104,15 @@ alt: Fixed at side
 
   </template>
 
-  ```html
-  <div class="relative ...">
-    <!-- fixed bottom side -->
-    <div
-      class="absolute bottom-0 left-2/4 transform -translate-x-1/2 w-48 h-8 bg-indigo-500 text-white flex items-center justify-center">
-    </div>
-    <!-- end fixed bottom side -->
-  </div>
-  ```
+```html
+<div class="relative ...">
+  <!-- fixed bottom side -->
+  <div
+    class="absolute bottom-0 left-2/4 transform -translate-x-1/2 w-48 h-8 bg-indigo-500 text-white flex items-center justify-center"
+  ></div>
+  <!-- end fixed bottom side -->
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/omYUfk3PeV">Live Edit</a>
@@ -120,10 +120,4 @@ alt: Fixed at side
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="fixed"></related-ui>

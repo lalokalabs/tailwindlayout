@@ -20,17 +20,24 @@ alt: Full Screen Background
     </div>
   </template>
 
-  ```html
-  <!-- full screen background container -->
-  <div class="min-h-screen bg-cover bg-no-repeat bg-fixed bg-center" style="background-image: url('...')">
+```html
+<!-- full screen background container -->
+<div
+  class="min-h-screen bg-cover bg-no-repeat bg-fixed bg-center"
+  style="background-image: url('...')"
+>
+  <!-- content container -->
+  <div class="h-full flex items-center justify-center">
     <!-- content div -->
-    <div class="h-full flex items-center justify-center">
+    <div>
       ...
     </div>
     <!-- end content div -->
   </div>
-  <!-- end full screen background container -->
-  ```
+  <!-- end content container -->
+</div>
+<!-- end full screen background container -->
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/CnpHH4Syb1">Live Edit</a>
@@ -38,10 +45,4 @@ alt: Full Screen Background
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="background"></related-ui>

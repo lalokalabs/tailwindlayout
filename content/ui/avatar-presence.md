@@ -18,12 +18,14 @@ alt: Avatar Presence
 
   <!-- snippet -->
 
-  ```html
-  <div class="relative w-12">
-    <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
-    <div class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"></div>
-  </div>
-  ```
+```html
+<div class="relative w-12">
+  <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
+  <div
+    class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"
+  ></div>
+</div>
+```
 
   <!-- end snippet -->
 
@@ -64,26 +66,34 @@ alt: Avatar Presence
 
   <!-- snippet -->
 
-  ```html
-  <div class="flex space-x-4">
-    <div class="relative">
-      <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
-      <div class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"></div>
-    </div>
-    <div class="relative">
-      <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
-      <div class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"></div>
-    </div>
-    <div class="relative">
-      <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
-      <div class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"></div>
-    </div>
-    <div class="relative">
-      <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
-      <div class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"></div>
-    </div>
+```html
+<div class="flex space-x-4">
+  <div class="relative">
+    <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
+    <div
+      class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"
+    ></div>
   </div>
-  ```
+  <div class="relative">
+    <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
+    <div
+      class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"
+    ></div>
+  </div>
+  <div class="relative">
+    <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
+    <div
+      class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"
+    ></div>
+  </div>
+  <div class="relative">
+    <img class="rounded-full ring-2 ring-gray-100 w-12 h-12" src="..." />
+    <div
+      class="absolute bottom-0 right-0 h-3 w-3 rounded-full ring ring-white bg-green-600"
+    ></div>
+  </div>
+</div>
+```
 
   <!-- end snippet -->
 
@@ -93,10 +103,4 @@ alt: Avatar Presence
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="avatar"></related-ui>

@@ -16,13 +16,13 @@ alt: Layout Sticky Footer
     <footer class="p-2 bg-indigo-50">Footer</footer>
   </template>
 
-  ```html
-  <div class="min-h-screen flex flex-col">
-    <header class="...">Header</header>
-    <main class="flex-1 ..."></main>
-    <footer class="...">Footer</footer>
-  </div>
-  ```
+```html
+<div class="min-h-screen flex flex-col">
+  <header class="...">Header</header>
+  <main class="flex-1 ..."></main>
+  <footer class="...">Footer</footer>
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/hvSifp5tCd">Live Edit</a>
@@ -30,10 +30,4 @@ alt: Layout Sticky Footer
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="centering"></related-ui>

@@ -27,12 +27,12 @@ alt: Input Addon
 
   </template>
 
-  ```html
-  <div class="flex">
-    <div class="...">Quantity</div>
-    <input class="flex-1 ..." type="number" />
-  </div>
-  ```
+```html
+<div class="flex">
+  <div class="...">Quantity</div>
+  <input class="flex-1 ..." type="number" />
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/hDxIplJDXo">Live Edit</a>
@@ -54,12 +54,12 @@ alt: Input Addon
 
   </template>
 
-  ```html
-  <div class="flex">
-    <input class="flex-1 ..." type="text" />
-    <button type="button" class="...">Go</button>
-  </div>
-  ```
+```html
+<div class="flex">
+  <input class="flex-1 ..." type="text" />
+  <button type="button" class="...">Go</button>
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/hDxIplJDXo">Live Edit</a>
@@ -87,13 +87,13 @@ alt: Input Addon
 
   </template>
 
-  ```html
-  <div class="flex">
-    <div class="...">Search Icon</div>
-    <input class="flex-1 ..." type="text" />
-    <button type="button" class="...">Go</button>
-  </div>
-  ```
+```html
+<div class="flex">
+  <div class="...">Search Icon</div>
+  <input class="flex-1 ..." type="text" />
+  <button type="button" class="...">Go</button>
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/hDxIplJDXo">Live Edit</a>
@@ -101,10 +101,4 @@ alt: Input Addon
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="input"></related-ui>

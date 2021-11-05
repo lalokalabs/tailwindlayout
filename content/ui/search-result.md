@@ -1,12 +1,12 @@
 ---
-title: Search Input
-description: Search Input
-alt: Search Input
+title: Search Result
+description: Search Result example with search input
+alt: Search Result example with search input
 ---
 
 <p class="page-desc">Simple search with result</p>
 
-<base-snippet :centered_preview="false" custom_preview_class="h-32 bg-indigo-50">
+<base-snippet :centered_preview="false" custom_preview_class="h-72 bg-indigo-50">
 
   <template v-slot:preview>
     <div class="bg-white shadow">
@@ -19,10 +19,16 @@ alt: Search Input
         </a>
         <div class="w-40 sm:w-96">
           <div class="relative">
-            <input type="search" placeholder="Search" class="w-full rounded-t-lg border border-gray-200" />
-            <div class="absolute z-10 w-full border rounded-b-lg shadow divide-y bg-white">
+            <input type="search" placeholder="Search" class="w-full rounded-lg border border-gray-200" />
+            <div class="absolute z-10 w-full border rounded-lg shadow divide-y max-h-52 overflow-y-auto bg-white mt-1">
               <a class="block p-2 hover:bg-indigo-50" href="#">Tailwind</a>
               <a class="block p-2 hover:bg-indigo-50" href="#">Bootstrap</a>
+              <a class="block p-2 hover:bg-indigo-50" href="#">Foundation</a>
+              <a class="block p-2 hover:bg-indigo-50" href="#">Bulma</a>
+              <a class="block p-2 hover:bg-indigo-50" href="#">Material UI</a>
+              <a class="block p-2 hover:bg-indigo-50" href="#">Semantic UI</a>
+              <a class="block p-2 hover:bg-indigo-50" href="#">Element UI</a>
+              <a class="block p-2 hover:bg-indigo-50" href="#">Ant Design</a>
             </div>
           </div>
         </div>
@@ -36,35 +42,31 @@ alt: Search Input
   </template>
 
   ```html
-  <!-- let the container decide the search width so we can reuse it everywhere -->
+  <!-- let the parent decide the search width so we can reuse it everywhere -->
   <div class="w-72">
-    <!-- search input -->
 
     <div class="relative">
+
+      <!-- search input -->
       <input type="search" class="w-full ..." autocomplete="off" placeholder="Search" />
+      <!-- end search input -->
 
       <!-- search result -->
-      <div class="absolute z-10 w-full border divide-y shadow bg-white ...">
+      <div class="absolute z-10 w-full border divide-y shadow max-h-72 overflow-y-auto bg-white ...">
         <a class="block p-2 hover:bg-indigo-50 ..." href="#">Tailwind</a>
         <a class="block p-2 hover:bg-indigo-50 ..." href="#">Bootstrap</a>
       </div>
       <!-- end search result -->
     </div>
 
-    <!-- end search input -->
+
   </div>
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/9RILP2wJZd">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/2oXfjzV7JX">Live Edit</a>
   </template>
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="input"></related-ui>

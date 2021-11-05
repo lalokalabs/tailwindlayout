@@ -14,7 +14,22 @@
       autocomplete="off"
       placeholder="Search"
     />
-    <ul class="absolute z-10 bg-white shadow-lg border divide-y w-full" v-if="ui_list.length">
+    <ul
+      class="
+        absolute
+        z-10
+        bg-white
+        shadow-lg
+        border
+        rounded-lg
+        divide-y divide-indigo-50
+        w-full
+        max-h-72
+        overflow-y-auto
+        mt-1
+      "
+      v-if="ui_list.length"
+    >
       <li class="" v-for="ui of ui_list" :key="ui.slug">
         <NuxtLink
           class="inline-block w-full p-2 font-semibold hover:bg-indigo-50"
@@ -41,10 +56,7 @@ export default {
         this.ui_list = [];
         return;
       }
-      this.ui_list = await this.$content("ui")
-        .limit(6)
-        .search(searchQuery)
-        .fetch();
+      this.ui_list = await this.$content("ui").search(searchQuery).fetch();
     },
   },
 };

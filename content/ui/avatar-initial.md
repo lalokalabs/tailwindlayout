@@ -20,11 +20,15 @@ alt: Avatar Initial
   </template>
 
   <!-- snippet -->
-  ```html
-  <div class="inline-flex items-center justify-center w-12 h-12 text-xl text-white bg-indigo-500 rounded-full">
-    TW
-  </div>
-  ```
+
+```html
+<div
+  class="inline-flex items-center justify-center w-12 h-12 text-xl text-white bg-indigo-500 rounded-full"
+>
+  TW
+</div>
+```
+
   <!-- end snippet -->
 
   <template v-slot:source>
@@ -33,10 +37,4 @@ alt: Avatar Initial
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="avatar"></related-ui>

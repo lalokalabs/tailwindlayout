@@ -18,22 +18,21 @@ alt: Layout Holy Grail
     </div>
   </template>
 
-  ```html
-  <div class="min-h-screen flex flex-col">
-    <header class="bg-red-50">Header</header>
+```html
+<div class="min-h-screen flex flex-col">
+  <header class="bg-red-50">Header</header>
 
-    <div class="flex-1 flex flex-col sm:flex-row">
-      <main class="flex-1 bg-indigo-100">Content here</main>
+  <div class="flex-1 flex flex-col sm:flex-row">
+    <main class="flex-1 bg-indigo-100">Content here</main>
 
-      <nav class="order-first sm:w-32 bg-purple-200">Sidebar</nav>
+    <nav class="order-first sm:w-32 bg-purple-200">Sidebar</nav>
 
-      <aside class="sm:w-32 bg-yellow-100">Right Sidebar</aside>
-    </div>
-
-    <footer class="bg-gray-100">Footer</footer>
+    <aside class="sm:w-32 bg-yellow-100">Right Sidebar</aside>
   </div>
 
-  ```
+  <footer class="bg-gray-100">Footer</footer>
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/rEb2JJjpdy">Live Edit</a>
@@ -41,10 +40,4 @@ alt: Layout Holy Grail
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="layout"></related-ui>

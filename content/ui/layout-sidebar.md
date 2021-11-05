@@ -38,17 +38,17 @@ alt: Layout Sidebar
     </div>
   </template>
 
-  ```html
-  <div class="min-h-screen flex">
-    <nav class="w-56 flex-none ...">
-      Sidebar
-    </nav>
+```html
+<div class="min-h-screen flex">
+  <nav class="w-56 flex-none ...">
+    Sidebar
+  </nav>
 
-    <main class="flex-1 min-w-0 overflow-auto ...">
-      ...
-    </main>
-  </div>
-  ```
+  <main class="flex-1 min-w-0 overflow-auto ...">
+    ...
+  </main>
+</div>
+```
 
   <template v-slot:source>
     <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/DajrsYdd40">Live Edit</a>
@@ -56,10 +56,4 @@ alt: Layout Sidebar
 
 </base-snippet>
 
-<h3 class="section-header">Related</h3>
-
-<div class="flex flex-wrap">
-  <card-avatar></card-avatar>
-  <card-avatar-stack></card-avatar-stack>
-  <card-avatar-initial></card-avatar-initial>
-</div>
+<related-ui search_key="centering"></related-ui>
