@@ -7,11 +7,11 @@
   >
     <!-- card preview -->
 
-    <header class="p-1 text-xs bg-indigo-50 border-b border-indigo-300">Header</header>
+    <header class="p-1 text-xs bg-indigo-50 border-b border-indigo-300 h-4"></header>
     <main class="flex-1 bg-indigo-50 border-b border-indigo-300 p-1 text-xs">
-      Content
+      
     </main>
-    <footer class="p-1 text-xs bg-indigo-50">Footer</footer>
+    <footer class="p-1 text-xs bg-indigo-50 h-4"></footer>
 
     <!-- end card preview -->
   </base-card>

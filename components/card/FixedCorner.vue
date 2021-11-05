@@ -4,9 +4,9 @@
 
     <div class="relative h-full bg-indigo-50">
       <div
-        class="absolute top-0 right-0 bg-indigo-500 text-white py-1 px-1 text-xs"
+        class="absolute top-0 right-0 bg-indigo-200 border border-indigo-300 border-t-0 border-r-0 text-white py-1 px-1 text-xs w-10 h-6"
       >
-        FIXED
+        
       </div>
     </div>
 

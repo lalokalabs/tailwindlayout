@@ -18,11 +18,12 @@
           -translate-y-1/2
           w-6
           h-10
-          bg-indigo-500
+          bg-indigo-200
           text-white
           flex
           items-center
           justify-center
+          border border-indigo-300 border-r-0
         "
       ></div>
       <!-- end right side -->

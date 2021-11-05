@@ -1,15 +1,17 @@
 <template>
-  <base-card :slug="slug" :label="label" :centered="false" customClass="h-full">
+  <base-card
+    :slug="slug"
+    :label="label"
+    :centered="false"
+    custom_class="h-full flex flex-col"
+  >
     <!-- card preview -->
 
-    <div class="w-full h-full text-xs">
-      <header class="sticky top-0 bg-indigo-100 border-b border-indigo-300 px-2 py-1">
-        Header
-      </header>
-      <main class="px-2 py-1">
-        <p>Content</p>
-      </main>
-    </div>
+    <header class="p-1 text-xs bg-indigo-50 border-b border-indigo-300 h-4"></header>
+    <main class="flex-1 bg-indigo-50 p-1 text-xs">
+      
+    </main>
+    
 
     <!-- end card preview -->
   </base-card>

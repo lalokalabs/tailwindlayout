@@ -8,7 +8,7 @@
     <!-- card preview -->
 
     <div class="h-full flex items-center justify-center bg-indigo-500">
-      <div class="w-10 h-10 bg-white border border-indigo-200"></div>
+      <div class="w-10 h-10 bg-indigo-50"></div>
     </div>
 
     <!-- end card preview -->

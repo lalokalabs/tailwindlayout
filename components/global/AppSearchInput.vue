@@ -32,6 +32,7 @@
     >
       <li class="" v-for="ui of ui_list" :key="ui.slug">
         <NuxtLink
+          @click.native="viewPage"
           class="inline-block w-full p-2 font-semibold hover:bg-indigo-50"
           :to="{ name: 'ui-slug', params: { slug: ui.slug } }"
         >
@@ -57,6 +58,11 @@ export default {
         return;
       }
       this.ui_list = await this.$content("ui").search(searchQuery).fetch();
+    },
+  },
+  methods: {
+    viewPage() {
+      this.ui_list = [];
     },
   },
 };
