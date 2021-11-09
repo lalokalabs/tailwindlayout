@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="">
     <LayoutHeader></LayoutHeader>
-    <div class="container mx-auto flex shadow-md">
+    <div class="max-w-7xl mx-auto flex">
       <div class="hidden md:block md:w-56 w-72 flex-none border-r">
         <div class="px-4 py-6">
           <sidebar></sidebar>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="section-header">Related</h3>
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap related-list">
       <component
         v-for="ui of ui_list"
         :key="ui.slug"
@@ -42,3 +42,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.related-list .base-card {
+  @apply w-24 mr-2;
+}
+
+@media (min-width: 640px) {
+  .related-list .base-card {
+    @apply w-32 mr-0;
+  }
+}
+</style>

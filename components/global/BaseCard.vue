@@ -1,6 +1,7 @@
 <template>
   <NuxtLink
     class="
+      base-card
       flex flex-col
       justify-start
       items-center

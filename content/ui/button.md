@@ -128,29 +128,32 @@ alt: Button
 
 <h3 class="section-desc">Button with Icon</h3>
 
-<base-snippet>
+<base-snippet :centered_preview="false">
 
   <template v-slot:preview>
-    <div class="p-2 space-y-2">
-      <button type="button"
-        class="inline-flex items-center align-top bg-blue-600 hover:bg-blue-700 py-2 px-4 text-sm font-medium text-white border border-transparent rounded-lg focus:outline-none">
-        Primary
-        <svg class="w-4 h-4 ml-2 -mr-1" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20">
-          <path
-            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-            clip-rule="evenodd" fill-rule="evenodd"></path>
-        </svg>
-      </button>
-      <button type="button"
-        class="inline-flex items-center align-top bg-gray-500 hover:bg-gray-600 py-2 px-4 text-sm font-medium text-white border border-transparent rounded-lg focus:outline-none">
-        <svg class="w-4 h-4 mr-2 -ml-1" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20">
-          <path
-            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-            clip-rule="evenodd" fill-rule="evenodd"></path>
-        </svg>
-        Secondary
-      </button>
+    <div class="p-10">
+      <div class="w-72 mx-auto text-center">
+        <button type="button"
+          class="inline-flex items-center align-top bg-blue-600 hover:bg-blue-700 py-2 px-4 text-sm font-medium text-white border border-transparent rounded-lg focus:outline-none">
+          <span>Primary</span>
+          <svg class="w-4 h-4 ml-2 -mr-1" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20">
+            <path
+              d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+              clip-rule="evenodd" fill-rule="evenodd"></path>
+          </svg>
+        </button>
+        <button type="button"
+          class="inline-flex items-center align-top bg-gray-500 hover:bg-gray-600 py-2 px-4 text-sm font-medium text-white border border-transparent rounded-lg focus:outline-none">
+          <svg class="w-4 h-4 mr-2 -ml-1" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20">
+            <path
+              d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+              clip-rule="evenodd" fill-rule="evenodd"></path>
+          </svg>
+          <span>Secondary</span>
+        </button>
+      </div>
     </div>
+
   </template>
 
   <!-- snippet -->

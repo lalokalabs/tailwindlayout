@@ -22,9 +22,6 @@ alt: Centering Row Items
           <li>
             <a class="hover:underline" href="#">About Us</a>
           </li>
-          <li>
-            <a class="hover:underline" href="#">Contact Us</a>
-          </li>
         </ul>
       </div>
     </div>

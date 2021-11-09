@@ -1,16 +1,7 @@
 <template>
   <header class="shadow-sm">
     <div
-      class="
-        max-w-sm
-        md:container
-        mx-auto
-        flex
-        items-center
-        justify-between
-        shadow-sm
-        py-4
-      "
+      class="max-w-7xl mx-auto flex items-center justify-between shadow-sm px-4 py-4"
     >
       <NuxtLink class="font-bold" to="/">Tailwind Layout</NuxtLink>
 
