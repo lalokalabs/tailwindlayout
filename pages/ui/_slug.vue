@@ -7,8 +7,8 @@
     <div
       class="
         bg-gradient-to-l
-        from-indigo-200
-        border border-indigo-200
+        from-yellow-200 to-yellow-50
+        border border-yellow-300
         shadow-md
         p-2
         rounded-lg

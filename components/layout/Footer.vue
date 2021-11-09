@@ -21,7 +21,7 @@
           <a
             class="underline sm:no-underline hover:underline"
             href="https://otp.dev"
-            >Sponsored by <span class="font-black">GETOTP</span>.</a
+            >Sponsored by <span class="font-black">GETOTP</span></a
           >
         </div>
       </div>
