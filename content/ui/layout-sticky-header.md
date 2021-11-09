@@ -1,7 +1,7 @@
 ---
-title: Sticky Header
-description: Sticky Header
-alt: Sticky Header
+title: Layout Sticky Header
+description: Layout Sticky Header
+alt: Layout Sticky Header
 ---
 
 <base-snippet :centered_preview="false" custom_preview_class="h-52 overflow-y-auto">

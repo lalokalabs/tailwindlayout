@@ -10,6 +10,10 @@
   @apply mb-6;
 }
 
+.section-desc {
+  @apply my-6;
+}
+
 .section-header {
     @apply text-2xl my-6;
 }

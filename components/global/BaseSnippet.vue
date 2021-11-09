@@ -19,6 +19,10 @@ export default {
       type: Boolean,
       default: true,
     },
+    disable_preview: {
+      type: Boolean,
+      default: false,
+    },
     custom_preview_class: {
       type: String,
       default: "",
@@ -27,6 +31,10 @@ export default {
   data: {},
   computed: {
     previewClass: function () {
+      if (this.disable_preview) {
+        return "";
+      }
+
       if (!this.centered_preview) {
         return this.custom_preview_class;
       }
