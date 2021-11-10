@@ -7,7 +7,7 @@
   >
     <div class="w-20 h-16 text-xs mx-auto pt-2">
       <div class="relative">
-        <div class="w-full p-1 border border-indigo-300 bg-white text-gray-600">
+        <div class="w-full p-1 border border-indigo-300 bg-white text-gray-400">
           Search
         </div>
         <div class="absolute z-10 w-full border shadow divide-y bg-white">

@@ -1,6 +1,6 @@
 ---
 title: Responsive Column
-description: Responsive Column
+description: Responsive Column Layout
 alt: Responsive Column
 ---
 

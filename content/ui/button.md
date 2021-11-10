@@ -195,7 +195,7 @@ alt: Button
       <button type="button"
         class="bg-blue-600 hover:bg-blue-700 py-2 px-4 text-3xl font-medium text-white border border-transparent rounded-lg focus:outline-none">Larger</button>
       <button type="button"
-        class="bg-blue-600 hover:bg-blue-700 py-2 px-4 text-2xl font-bold font-medium text-white border border-transparent rounded-lg focus:outline-none">Larger</button>
+        class="bg-blue-600 hover:bg-blue-700 py-1 px-4 text-2xl font-bold font-medium text-white border border-transparent rounded-lg focus:outline-none">Large</button>
       <button type="button"
         class="bg-blue-600 hover:bg-blue-700 py-1 px-2 text-xs font-medium text-white border border-transparent rounded-lg focus:outline-none">Small</button>
     </div>
@@ -205,7 +205,7 @@ alt: Button
 
   ```html
   <button type="button" class="py-2 px-4 text-3xl ...">Larger</button>
-  <button type="button" class="py-2 px-4 text-2xl ...">Larger</button>
+  <button type="button" class="py-1 px-4 text-2xl ...">Large</button>
   <button type="button" class="py-1 px-2 text-xs ...">Small</button>
   ```
 
@@ -384,7 +384,7 @@ alt: Button
     }
 
     .btn-lg {
-      @apply py-2 px-4 text-xl;
+      @apply py-1 px-4 text-xl;
     }
 
     .btn-sm {
