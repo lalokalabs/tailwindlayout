@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap justify-center">
       <component
         v-for="ui of ui_list"
         :key="ui.slug"
