@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="section-header">Related</h3>
-    <div class="flex flex-wrap related-list">
+    <div class="flex flex-wrap justify-center related-list">
       <component
         v-for="ui of ui_list"
         :key="ui.slug"
