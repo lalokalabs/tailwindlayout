@@ -17,6 +17,7 @@
     "prism-themes": "^1.9.0"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "gh-pages": "^3.2.3",
     "postcss": "^8.3.5"
