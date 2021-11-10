@@ -4,11 +4,11 @@ description: Layout Sidebar
 alt: Layout Sidebar
 ---
 
-<base-snippet :centered_preview="false" custom_preview_class="h-72">
+<base-snippet :centered_preview="false" custom_preview_class="h-72 p-4">
 
   <template v-slot:preview>
-    <div class="h-full flex">
-      <nav class="w-20 sm:w-56 flex-none bg-indigo-200 p-2">
+    <div class="h-full flex border border-indigo-300">
+      <nav class="w-20 sm:w-56 flex-none bg-indigo-200 border-r border-indigo-300 p-2">
         Sidebar
       </nav>
       <main class="flex-1 min-w-0 overflow-auto bg-indigo-50 p-2">
@@ -56,4 +56,4 @@ alt: Layout Sidebar
 
 </base-snippet>
 
-<related-ui search_key="centering"></related-ui>
+<related-ui search_key="layout"></related-ui>

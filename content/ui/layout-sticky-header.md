@@ -4,16 +4,19 @@ description: Layout Sticky Header
 alt: Layout Sticky Header
 ---
 
-<base-snippet :centered_preview="false" custom_preview_class="h-52 overflow-y-auto">
+<base-snippet :centered_preview="false" custom_preview_class="h-72 p-4">
 
   <template v-slot:preview>
-    <div class="w-full">
-      <header class="sticky top-0 bg-indigo-200 border border-indigo-300 px-4 py-2">Sticky header</header>
-      <main class="bg-indigo-50 px-4 py-2">
-        <p class="mb-40">Scroll down</p>
-        <p class="">Oops already at the bottom</p>
-      </main>
+    <div class="h-full overflow-y-auto border-b border-indigo-300">
+      <div class="w-full border border-indigo-300 border-b-0">
+        <header class="sticky top-0 bg-indigo-200  px-4 py-2">Sticky header</header>
+        <main class="bg-indigo-50 px-4 py-2">
+          <p class="mb-60">Scroll down</p>
+          <p class="">Oops already at the bottom</p>
+        </main>
+      </div>
     </div>
+
   </template>
 
   ```html
