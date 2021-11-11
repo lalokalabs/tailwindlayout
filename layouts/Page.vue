@@ -14,5 +14,6 @@
       </div>
     </div>
     <LayoutFooter></LayoutFooter>
+    <drawer></drawer>
   </div>
 </template>
