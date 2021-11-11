@@ -13,13 +13,7 @@ alt: Drawer
       <div class="mb-12">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-        make a
-        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-        containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-        versions
-        of Lorem Ipsum.
+        make a type specimen book.
       </div>
       <!-- drawer container -->
       <div class="absolute h-full w-full z-50 left-0 top-0">
@@ -27,7 +21,7 @@ alt: Drawer
         <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
         <!-- end overlay -->
         <!-- side -->
-        <div class="absolute h-full w-72 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
+        <div class="absolute h-full w-1/3 sm:w-72 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
         <!-- end side -->
       </div>
       <!-- end drawer container -->
@@ -37,6 +31,7 @@ alt: Drawer
   ```html
   <!-- Add drawer container into body or main div -->
   <div>
+    Some content ...
 
     <!-- drawer container -->
     <div class="fixed h-full w-full z-50 left-0 top-0">
@@ -45,7 +40,7 @@ alt: Drawer
       <!-- end overlay -->
 
       <!-- side -->
-      <div class="fixed h-full w-72 left-0 top-0 bg-white shadow-lg p-4">Left Drawer</div>
+      <div class="fixed h-full w-1/2 sm:w-72 left-0 top-0 bg-white shadow-lg p-4">Left Drawer</div>
       <!-- end side -->
     </div>
     <!-- end drawer container -->
@@ -68,13 +63,7 @@ alt: Drawer
       <div class="mb-12">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-        make a
-        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-        containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-        versions
-        of Lorem Ipsum.
+        make a type specimen book.
       </div>
       <!-- drawer container -->
       <div class="absolute h-full w-full z-50 left-0 top-0">
@@ -82,7 +71,7 @@ alt: Drawer
         <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
         <!-- end overlay -->
         <!-- side -->
-        <div class="absolute h-full w-72 right-0 top-0 bg-indigo-50 shadow-lg p-4">Right Drawer</div>
+        <div class="absolute h-full w-1/3 sm:w-72 right-0 top-0 bg-indigo-50 shadow-lg p-4">Right Drawer</div>
         <!-- end side -->
       </div>
       <!-- end drawer container -->
@@ -92,6 +81,7 @@ alt: Drawer
   ```html
   <!-- Add drawer container into body or main div -->
   <div>
+    Some content ...
 
     <!-- drawer container -->
     <div class="fixed h-full w-full z-50 left-0 top-0">
@@ -100,7 +90,7 @@ alt: Drawer
       <!-- end overlay -->
 
       <!-- side -->
-      <div class="fixed h-full w-72 right-0 top-0 bg-white shadow-lg p-4">Right Drawer</div>
+      <div class="fixed h-full w-1/3 sm:w-72 right-0 top-0 bg-white shadow-lg p-4">Right Drawer</div>
       <!-- end side -->
     </div>
     <!-- end drawer container -->
@@ -120,12 +110,9 @@ alt: Drawer
 
   <template v-slot:preview>
     <div class="h-full bg-indigo-200 border border-indigo-300 p-4">
-      <div class="p-10 border border-indigo-300 h-full relative">
+      <div class="p-4 border border-indigo-300 h-full relative">
         <div class="mb-12">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a
-          type specimen book.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </div>
         <!-- drawer container -->
         <div class="absolute h-full w-full z-50 left-0 top-0">
@@ -133,7 +120,7 @@ alt: Drawer
           <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
           <!-- end overlay -->
           <!-- side -->
-          <div class="absolute h-full w-1/2 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
+          <div class="absolute h-full w-1/3 sm:w-1/2 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
           <!-- end side -->
         </div>
         <!-- end drawer container -->
