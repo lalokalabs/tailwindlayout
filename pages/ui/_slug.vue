@@ -17,8 +17,7 @@
       "
     >
       <a class="hover:underline" href="https://otp.dev"
-        >Need OTP feature in your project? Save yourself the headache by using
-        this <span class="font-bold">crazy simple OTP API</span> by GETOTP!</a
+        ><span class="font-bold">GetOTP</span> one-time password API: Try for free and see how fast you can build a complete OTP flow.</a
       >
     </div>
 
