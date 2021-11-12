@@ -13,16 +13,22 @@
       >
         <div class="text-center">
           © Copyright 2021
-          <a class="underline hover:text-gray-600" href="https://lalokalabs.co" target="_blank">
+          <a
+            class="hover:text-gray-600 hover:underline"
+            href="https://lalokalabs.co"
+            target="_blank"
+          >
             LaLoka Labs.
           </a>
         </div>
-        <div class="flex items-center text-center">
-          <p>Sponsored by</p>
-          <a class="underline" href="https://otp.dev" target="_blank">
-            <img src="/getotp-logo-twl.png" class="ml-1" style="width:85px;">
-          </a>
-        </div>
+        <a
+          class="inline-flex items-center"
+          href="https://otp.dev"
+          target="_blank"
+        >
+          Sponsored by
+          <img src="/getotp-logo-twl.png" class="ml-1" style="width: 85px" />
+        </a>
       </div>
     </div>
   </footer>
