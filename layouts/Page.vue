@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="flex-1 min-w-0 overflow-y-auto">
-        <div class="p-8 lg:px-12">
+        <div class="p-4 sm:p-8 lg:px-12">
           <Nuxt />
         </div>
       </div>
