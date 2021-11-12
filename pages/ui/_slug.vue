@@ -3,23 +3,11 @@
     <h1 class="page-header">{{ article.title }}</h1>
 
     <!-- ads -->
-
-    <div
-      class="
-        bg-gradient-to-l
-        from-yellow-200
-        to-yellow-50
-        border border-yellow-300
-        shadow-md
-        p-2
-        rounded-lg
-        mb-10
-      "
-    >
-      <a class="hover:underline" href="https://otp.dev"
-        ><span class="font-bold">GetOTP</span> one-time password API: Try for free and see how fast you can build a complete OTP flow.</a
-      >
-    </div>
+    <a href="https://otp.dev" target="_blank">
+      <div class="text-white text-center shadow-md p-4 mb-8 rounded-md bg-gradient font-medium hover:underline">
+        <span class="font-bold">GetOTP</span> one-time password API: Try for free and see how fast you can build a complete OTP flow.
+      </div>
+    </a>
 
     <!-- end ads -->
 
@@ -54,4 +42,11 @@ export default {
 </script>
 
 <style>
+.bg-gradient {
+  background: linear-gradient(41deg,#01b9db 45%,#318fff);
+}
+
+.bg-gradient:hover {
+  background: linear-gradient(41deg,#0face5 45%,#3f67f7);
+}
 </style>
