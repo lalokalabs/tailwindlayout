@@ -4,8 +4,8 @@
       
       <!-- bottom left arrow -->
       <div
-        style="left: 25px"
         class="
+          left-[25px]
           absolute
           bottom-0
           transform

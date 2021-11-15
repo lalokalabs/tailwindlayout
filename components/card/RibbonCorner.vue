@@ -19,8 +19,10 @@
             font-semibold
             py-1
             text-xs
+            left-[-34px]
+            top-[10px]
+            w-[120px]
           "
-          style="left: -34px; top: 10px; width: 120px"
         >
           Popular
         </div>

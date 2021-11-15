@@ -27,7 +27,7 @@
           target="_blank"
         >
           Sponsored by
-          <img src="/getotp-logo-twl.png" class="ml-1" style="width: 85px" />
+          <img src="/getotp-logo-twl.png" class="ml-1 w-[85px]" />
         </a>
       </div>
     </div>
