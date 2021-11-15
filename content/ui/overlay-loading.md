@@ -74,7 +74,7 @@ alt: Overlay Loading
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/OH3Qg4lmpQ">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/3NJwWTk1rV">Live Edit</a>
   </template>
 
 </base-snippet>
