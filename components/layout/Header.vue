@@ -41,10 +41,10 @@
 
       <div class="hidden sm:block">
         <ul class="flex space-x-4">
-          <li>
+          <li class="hidden">
             <a href="mailto:engineering@lalokalabs.co">Contact</a>
           </li>
-          <li class="hidden">
+          <li class="">
             <a href="https://github.com/lalokalabs/tailwindlayout">Github</a>
           </li>
         </ul>
