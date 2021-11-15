@@ -11,14 +11,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'tailwindlayout',
+    title: 'Tailwind Layout',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Useful Tailwind CSS layout examples for developers' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -64,6 +64,10 @@ export default {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
     }
+  },
+
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   },
 
   googleAnalytics: {
