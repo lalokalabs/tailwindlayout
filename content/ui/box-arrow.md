@@ -30,7 +30,7 @@ alt: Box Arrow
 ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/YCAoKNjj8O">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/yYu08mfrT6">Live Edit</a>
   </template>
 
 </base-snippet>

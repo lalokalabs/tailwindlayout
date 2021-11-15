@@ -24,7 +24,7 @@ alt: Indicator
   </template>
 
   ```html
-  <!-- min-width must be equal to height, we hardcode the example since Tailwind doesnt have class for min-w-7  -->
+  <!-- min-width must be equal to height, h-7 is 1.75rem  -->
 
   <div
     class="min-w-[1.75rem] inline-flex items-center justify-center h-7 text-xl text-white bg-red-500 rounded-full px-1">
@@ -33,7 +33,7 @@ alt: Indicator
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/CuosZiZPAW">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/9rJTMuZHlR">Live Edit</a>
   </template>
 
 </base-snippet>
@@ -109,7 +109,7 @@ alt: Indicator
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/CuosZiZPAW">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/9rJTMuZHlR">Live Edit</a>
   </template>
 
 </base-snippet>

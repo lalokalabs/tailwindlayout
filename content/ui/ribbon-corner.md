@@ -29,7 +29,7 @@ alt: Ribbon at corner
 ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/QzuVb3fznZ">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/u6U7L5WSfz">Live Edit</a>
   </template>
 
 </base-snippet>

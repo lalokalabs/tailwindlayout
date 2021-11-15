@@ -49,7 +49,7 @@ alt: Drawer
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/IOmu4JTs9E">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/OH3Qg4lmpQ">Live Edit</a>
   </template>
 
 </base-snippet>
@@ -99,7 +99,7 @@ alt: Drawer
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/YilhWH0Q5t">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/D1NDMJXC5q">Live Edit</a>
   </template>
 
 </base-snippet>
@@ -148,7 +148,7 @@ alt: Drawer
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/PhEhmwfdkl">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/FjKFGyLCWx">Live Edit</a>
   </template>
 
 </base-snippet>
