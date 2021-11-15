@@ -11,8 +11,8 @@ alt: Ribbon at corner
   <template v-slot:preview>
     <div class="relative bg-indigo-50 border w-56 h-56 overflow-hidden">
       <div class="absolute left-0 top-0 h-16 w-16">
-        <div class="absolute transform -rotate-45 bg-indigo-600 text-center text-white font-semibold py-1"
-          style="left: -34px;top: 32px;width: 170px;">Popular</div>
+        <div class="absolute transform -rotate-45 bg-indigo-600 text-center text-white font-semibold py-1 left-[-34px] top-[32px] w-[170px]">
+          Popular</div>
       </div>
     </div>
   </template>
@@ -21,9 +21,7 @@ alt: Ribbon at corner
 <div class="relative overflow-hidden w-56 h-56 bg-white border">
   <div class="absolute left-0 top-0 h-16 w-16">
     <div
-      class="absolute transform -rotate-45 bg-gray-600 text-center text-white font-semibold py-1"
-      style="left: -34px;top: 32px;width: 170px;"
-    >
+      class="absolute transform -rotate-45 bg-gray-600 text-center text-white font-semibold py-1 left-[-34px] top-[32px] w-[170px]">
       Popular
     </div>
   </div>

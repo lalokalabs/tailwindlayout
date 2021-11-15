@@ -18,7 +18,7 @@ alt: Drawer
       <!-- drawer container -->
       <div class="absolute h-full w-full z-50 left-0 top-0">
         <!-- overlay -->
-        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]" ></div>
         <!-- end overlay -->
         <!-- side -->
         <div class="absolute h-full w-1/3 sm:w-72 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
@@ -36,7 +36,7 @@ alt: Drawer
     <!-- drawer container -->
     <div class="fixed h-full w-full z-50 left-0 top-0">
       <!-- overlay -->
-      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]"></div>
       <!-- end overlay -->
 
       <!-- side -->
@@ -68,7 +68,7 @@ alt: Drawer
       <!-- drawer container -->
       <div class="absolute h-full w-full z-50 left-0 top-0">
         <!-- overlay -->
-        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]" ></div>
         <!-- end overlay -->
         <!-- side -->
         <div class="absolute h-full w-1/3 sm:w-72 right-0 top-0 bg-indigo-50 shadow-lg p-4">Right Drawer</div>
@@ -86,7 +86,7 @@ alt: Drawer
     <!-- drawer container -->
     <div class="fixed h-full w-full z-50 left-0 top-0">
       <!-- overlay -->
-      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50 z[-1]"></div>
       <!-- end overlay -->
 
       <!-- side -->
@@ -117,7 +117,7 @@ alt: Drawer
         <!-- drawer container -->
         <div class="absolute h-full w-full z-50 left-0 top-0">
           <!-- overlay -->
-          <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+          <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]"></div>
           <!-- end overlay -->
           <!-- side -->
           <div class="absolute h-full w-1/3 sm:w-1/2 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
@@ -135,7 +135,7 @@ alt: Drawer
     <!-- drawer container. use absolute for container, overlay and side -->
     <div class="absolute h-full w-full z-50 left-0 top-0">
       <!-- overlay -->
-      <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+      <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]" ></div>
       <!-- end overlay -->
 
       <!-- side -->
