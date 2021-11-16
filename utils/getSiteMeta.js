@@ -1,8 +1,8 @@
 const type = "website";
 const url = "https://tailwindlayout.lalokalabs.dev/";
 const title = "Tailwind Layout";
-const description = "Collections of useful Tailwind CSS layouts";
-const mainImage = "https://tailwindlayout.lalokalabs.dev/socialshare.png";
+const description = "A collection of useful Tailwind CSS layouts and patterns";
+const mainImage = "/fbsharepreview.png";
 const twitterSite = "@lalokalabs";
 const twitterCard = "summary_large_image"
 

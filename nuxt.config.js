@@ -1,3 +1,7 @@
+import getSiteMeta from './utils/getSiteMeta';
+
+const meta = getSiteMeta();
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -12,13 +16,14 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Tailwind Layout',
+    titleTemplate: '%s - Tailwind Layout',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
+      ...meta,
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'google-site-verification', content: process.env.GOOGLE_SITE_VERIFICATION_ID }
     ],
