@@ -1,6 +1,6 @@
 ---
 title: Grid
-description: Flex Grid Layout
+description: Flex Grid Layout, Card Grid
 alt: Flex Grid
 ---
 

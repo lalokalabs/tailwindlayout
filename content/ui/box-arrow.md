@@ -12,8 +12,8 @@ alt: Box Arrow
         <p class="mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       </div>
       <!-- bottom left arrow -->
-      <div style="left:39px;"
-        class="absolute bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-4 h-4 bg-white border-r border-b border-indigo-500">
+      <div
+        class="left-[39px] absolute bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-4 h-4 bg-white border-r border-b border-indigo-500">
       </div>
       <!-- end bottom left arrow -->
     </div>
@@ -23,15 +23,14 @@ alt: Box Arrow
 <div class="relative bg-white border-r border-b border-indigo-500 ...">
   <!-- bottom left arrow -->
   <div
-    style="left:39px;"
-    class="absolute bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-4 h-4 bg-white border-r border-b border-indigo-500"
+    class="left-[39px] absolute bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-4 h-4 bg-white border-r border-b border-indigo-500"
   ></div>
   <!-- end bottom left arrow -->
 </div>
 ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/YCAoKNjj8O">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/yYu08mfrT6">Live Edit</a>
   </template>
 
 </base-snippet>

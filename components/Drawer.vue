@@ -18,8 +18,7 @@
     <!-- overlay -->
     <div
       @click="toggleDrawer()"
-      class="fixed h-full w-full left-0 top-0 bg-gray-500 bg-opacity-25"
-      style="z-index: -1"
+      class="fixed h-full w-full left-0 top-0 bg-gray-500 bg-opacity-25 z-[-1]"
     ></div>
     <!-- end overlay -->
 
@@ -37,7 +36,6 @@
         shadow-lg
         p-4
       "
-      style=""
     >
       <h3 class="font-bold text-xl mb-6">Layouts</h3>
 

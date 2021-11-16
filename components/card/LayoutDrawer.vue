@@ -14,7 +14,7 @@
       <!-- drawer container -->
       <div class="absolute h-full w-full z-50 left-0 top-0">
         <!-- overlay -->
-        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]"></div>
         <!-- end overlay -->
         <!-- side -->
         <div class="absolute h-full w-1/3 left-0 top-0 bg-indigo-50 shadow-lg p-1"></div>

@@ -18,7 +18,7 @@ alt: Drawer
       <!-- drawer container -->
       <div class="absolute h-full w-full z-50 left-0 top-0">
         <!-- overlay -->
-        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]" ></div>
         <!-- end overlay -->
         <!-- side -->
         <div class="absolute h-full w-1/3 sm:w-72 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
@@ -36,7 +36,7 @@ alt: Drawer
     <!-- drawer container -->
     <div class="fixed h-full w-full z-50 left-0 top-0">
       <!-- overlay -->
-      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]"></div>
       <!-- end overlay -->
 
       <!-- side -->
@@ -49,7 +49,7 @@ alt: Drawer
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/IOmu4JTs9E">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/OH3Qg4lmpQ">Live Edit</a>
   </template>
 
 </base-snippet>
@@ -68,7 +68,7 @@ alt: Drawer
       <!-- drawer container -->
       <div class="absolute h-full w-full z-50 left-0 top-0">
         <!-- overlay -->
-        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+        <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]" ></div>
         <!-- end overlay -->
         <!-- side -->
         <div class="absolute h-full w-1/3 sm:w-72 right-0 top-0 bg-indigo-50 shadow-lg p-4">Right Drawer</div>
@@ -86,7 +86,7 @@ alt: Drawer
     <!-- drawer container -->
     <div class="fixed h-full w-full z-50 left-0 top-0">
       <!-- overlay -->
-      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+      <div class="fixed h-full w-full left-0 top-0 bg-black bg-opacity-50 z[-1]"></div>
       <!-- end overlay -->
 
       <!-- side -->
@@ -99,7 +99,7 @@ alt: Drawer
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/YilhWH0Q5t">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/D1NDMJXC5q">Live Edit</a>
   </template>
 
 </base-snippet>
@@ -117,7 +117,7 @@ alt: Drawer
         <!-- drawer container -->
         <div class="absolute h-full w-full z-50 left-0 top-0">
           <!-- overlay -->
-          <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+          <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]"></div>
           <!-- end overlay -->
           <!-- side -->
           <div class="absolute h-full w-1/3 sm:w-1/2 left-0 top-0 bg-indigo-50 shadow-lg p-4">Left Drawer</div>
@@ -135,7 +135,7 @@ alt: Drawer
     <!-- drawer container. use absolute for container, overlay and side -->
     <div class="absolute h-full w-full z-50 left-0 top-0">
       <!-- overlay -->
-      <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50" style="z-index: -1;"></div>
+      <div class="absolute h-full w-full left-0 top-0 bg-black bg-opacity-50 z-[-1]" ></div>
       <!-- end overlay -->
 
       <!-- side -->
@@ -148,7 +148,7 @@ alt: Drawer
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/PhEhmwfdkl">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/FjKFGyLCWx">Live Edit</a>
   </template>
 
 </base-snippet>

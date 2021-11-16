@@ -3,8 +3,8 @@
     <!-- card preview -->
 
     <div
-      style="min-width: 2.5rem"
       class="
+        min-w-[2.5rem]
         inline-flex
         items-center
         justify-center

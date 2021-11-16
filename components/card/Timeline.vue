@@ -6,7 +6,7 @@
     <div
       class="timeline-item flex relative py-1 px-0 ml-4 leading-6 box-border"
     >
-      <div class="relative text-gray-900 box-border" style="z-index: 1">
+      <div class="relative text-gray-900 box-border z-[1]">
         <div
           display="flex"
           class="
@@ -42,8 +42,8 @@
           leading-5
           text-gray-700
           box-border
+          min-w-[0px]
         "
-        style="min-width: 0px"
       >
         A
       </div>
@@ -53,7 +53,7 @@
     <div
       class="timeline-item flex relative py-1 px-0 ml-4 leading-6 box-border"
     >
-      <div class="relative text-gray-900 box-border" style="z-index: 1">
+      <div class="relative text-gray-900 box-border z-[1]">
         <div
           display="flex"
           class="
@@ -89,8 +89,8 @@
           leading-5
           text-gray-700
           box-border
+          min-w-[0]
         "
-        style="min-width: 0px"
       >
         B
       </div>

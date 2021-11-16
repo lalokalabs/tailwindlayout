@@ -44,7 +44,7 @@
           <li class="hidden">
             <a href="mailto:engineering@lalokalabs.co">Contact</a>
           </li>
-          <li>
+          <li class="">
             <a href="https://github.com/lalokalabs/tailwindlayout">Github</a>
           </li>
         </ul>
