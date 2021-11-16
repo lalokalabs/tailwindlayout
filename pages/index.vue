@@ -25,6 +25,12 @@ export default {
     };
   },
 
+  head() {
+    return {
+      title: "Home",
+    };
+  },
+
   data() {
     return {
       ui_list: [],
