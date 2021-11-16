@@ -7,7 +7,7 @@ alt: Layout Sidebar
 <base-snippet :centered_preview="false" custom_preview_class="h-72 p-4">
 
   <template v-slot:preview>
-    <div class="h-full flex border border-indigo-300">
+    <div class="h-full flex border border-indigo-300 text-xs">
       <nav class="w-20 sm:w-56 flex-none bg-indigo-200 border-r border-indigo-300 p-2">
         Sidebar
       </nav>

@@ -9,7 +9,7 @@ alt: Layout Sticky Footer
 <base-snippet :centered_preview="false" custom_preview_class="h-72 p-4">
 
   <template v-slot:preview>
-    <div class="h-full flex flex-col border border-indigo-300">
+    <div class="h-full flex flex-col border border-indigo-300 text-xs">
       <header class="p-2 bg-indigo-50 border-b border-indigo-300">Header</header>
       <main class="flex-1 bg-indigo-50 border-b border-indigo-300 p-2">
         <div class="mb-20">Content</div>

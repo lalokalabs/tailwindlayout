@@ -7,7 +7,7 @@ alt: Layout Split
 <base-snippet :centered_preview="false" custom_preview_class="h-72 p-4">
 
   <template v-slot:preview>
-    <div class="h-full flex border border-indigo-300">
+    <div class="h-full flex border border-indigo-300 text-xs">
       <div class="flex-1 bg-indigo-50 border-r border-indigo-300 p-4">Left Screen</div>
       <div class="flex-1 bg-indigo-50 p-4">Right Screen</div>
     </div>
