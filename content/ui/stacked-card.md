@@ -135,8 +135,8 @@ alt: Card Stacked
 
       <!-- card -->
       <!-- 
-        We replace max-w-sm with h-full in grid as the card with is determine by grid width.
-        h-full let the card height even as others card in the grid
+        We remove max-w-sm when using grid as the card width is determine by grid width.
+        We add h-full to set the the card height equal as others card height in the grid
         previous: max-w-sm flex flex-col rounded-lg overflow-hidden bg-white shadow
       -->
       <div class="h-full flex flex-col rounded-lg overflow-hidden bg-white shadow">
