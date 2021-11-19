@@ -1,6 +1,6 @@
 ---
 title: Card Stacked
-description: Card Stacked
+description: Card Stacked, Card in layout grid
 alt: Card Stacked
 ---
 
@@ -135,7 +135,8 @@ alt: Card Stacked
 
       <!-- card -->
       <!-- 
-        We replace max-w-sm with h-full in grid 
+        We replace max-w-sm with h-full in grid as the card with is determine by grid width.
+        h-full let the card height even as others card in the grid
         previous: max-w-sm flex flex-col rounded-lg overflow-hidden bg-white shadow
       -->
       <div class="h-full flex flex-col rounded-lg overflow-hidden bg-white shadow">

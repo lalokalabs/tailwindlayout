@@ -11,7 +11,7 @@
 }
 
 .section-desc {
-  @apply my-6;
+  @apply text-gray-600 text-sm my-6;
 }
 
 .section-header {
