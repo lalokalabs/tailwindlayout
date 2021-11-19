@@ -21,6 +21,9 @@
             LaLoka Labs.
           </a>
         </div>
+        <div class="text-center text-xs w-full sm:w-[30rem]">
+          Tailwind CSS is a trademark of Tailwind Labs Inc, and we do not have official connection with them.
+        </div>
         <a
           class="inline-flex items-center"
           href="https://otp.dev"

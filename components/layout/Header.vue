@@ -12,7 +12,7 @@
         py-4
       "
     >
-      <NuxtLink class="font-bold flex-none" to="/">Tailwind Layout</NuxtLink>
+      <NuxtLink class="font-bold flex-none w-40 sm:w-72" to="/">Layout built with Tailwind CSS</NuxtLink>
 
       <div class="w-full sm:w-96 mx-4">
         <AppSearchInput />
