@@ -11,7 +11,7 @@
           justify-between
         "
       >
-        <div class="text-center md:text-left md:mr-12 mb-1 md:mb-0 min-w-[230px]">
+        <div class="text-sm text-center md:text-left md:mr-12 mb-1 md:mb-0 min-w-[230px]">
           © Copyright 2021
           <a
             class="text-gray-500 underline hover:text-gray-800"

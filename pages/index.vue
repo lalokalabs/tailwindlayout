@@ -1,5 +1,9 @@
 <template>
-  <div>
+  <div class="my-8">
+    <div class="mx-auto text-center px-5 pt-5 pb-8">
+      <h1 class="text-4xl font-bold text-gray-800">LaLoka Layouts</h1>
+      <h2 class="text-lg font-medium mt-3 text-gray-500">Useful layouts for Tailwind CSS</h2>
+    </div>
     <div class="flex flex-wrap justify-center">
       <component
         v-for="ui of ui_list"
