@@ -1,12 +1,14 @@
 <template>
-  <div class="border shadow rounded-lg overflow-hidden">
-    <div class="bg-white" :class="previewClass">
-      <slot name="preview"></slot>
+  <div>
+    <div class="border shadow rounded-md overflow-hidden">
+      <div class="bg-white" :class="previewClass">
+        <slot name="preview"></slot>
+      </div>
+      <div>
+        <slot></slot>
+      </div>
     </div>
-    <div>
-      <slot></slot>
-    </div>
-    <div class="px-4 py-6 bg-white">
+    <div class="py-8">
       <slot name="source"></slot>
     </div>
   </div>

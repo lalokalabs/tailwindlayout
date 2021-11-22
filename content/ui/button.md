@@ -4,7 +4,7 @@ description: Button
 alt: Button
 ---
 
-<h3 class="page-desc">Solid Button</h3>
+<h3 class="section-header">Solid Button</h3>
 
 <base-snippet>
 
@@ -65,7 +65,7 @@ alt: Button
 
 </base-snippet>
 
-<h3 class="section-desc">Outline Button</h3>
+<h3 class="section-header">Outline Button</h3>
 
 <base-snippet>
 
@@ -126,7 +126,7 @@ alt: Button
 
 </base-snippet>
 
-<h3 class="section-desc">Button with Icon</h3>
+<h3 class="section-header">Button with Icon</h3>
 
 <base-snippet :centered_preview="false">
 
@@ -186,7 +186,7 @@ alt: Button
 
 </base-snippet>
 
-<h3 class="section-desc">Button Size</h3>
+<h3 class="section-header">Button Size</h3>
 
 <base-snippet>
 
@@ -217,7 +217,7 @@ alt: Button
 
 </base-snippet>
 
-<h3 class="section-desc">Button Block</h3>
+<h3 class="section-header">Button Block</h3>
 
 <base-snippet>
 
@@ -242,7 +242,7 @@ alt: Button
 
 </base-snippet>
 
-<h3 class="section-desc">Extract button class as component</h3>
+<h3 class="section-header">Extract button class as component</h3>
 
 <base-snippet :disable_preview="true">
 

@@ -4,8 +4,6 @@ description: Vertical Scroll Layout
 alt: Vertical Scroll
 ---
 
-<h3 class="section-header">Preview</h3>
-
 <base-snippet :centered_preview="false" custom_preview_class="bg-indigo-50 h-56 flex items-center justify-center">
   <template v-slot:preview>
     <div class="bg-white shadow-md p-3 w-56 max-h-20 overflow-y-auto">

@@ -4,8 +4,6 @@ description: Avatar Initial
 alt: Avatar Initial
 ---
 
-<h3 class="section-header">Preview</h3>
-
 <base-snippet>
 
   <template v-slot:preview>

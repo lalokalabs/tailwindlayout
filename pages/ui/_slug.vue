@@ -1,7 +1,5 @@
 <template>
   <article>
-    <h1 class="page-header">{{ article.title }}</h1>
-
     <!-- ads -->
     <a href="https://otp.dev" target="_blank">
       <div
@@ -20,8 +18,9 @@
         free and see how fast you can build a complete OTP flow.
       </div>
     </a>
-
     <!-- end ads -->
+
+    <h1 class="page-header">{{ article.title }}</h1>
 
     <nuxt-content :document="article" />
 
