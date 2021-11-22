@@ -48,7 +48,7 @@ alt: Overlay Loading
   </template>
 
   ```html
-  <!-- Add drawer container into body or main div -->
+  <!-- Add relative class to container -->
   <div class="relative ...">
     Some content ...
 
