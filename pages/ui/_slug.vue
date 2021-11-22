@@ -24,7 +24,7 @@
 
     <nuxt-content :document="article" />
 
-    <div class="mt-6">
+    <div class="my-6">
       <prev-next :prev="prev" :next="next" />
     </div>
   </article>
