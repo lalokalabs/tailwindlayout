@@ -15,8 +15,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Layouts for Tailwind CSS by LaLoka Labs',
-    titleTemplate: '%s - Layouts for Tailwind CSS by LaLoka Labs',
+    title: 'LaLoka Layouts for Tailwind',
+    titleTemplate: '%s - LaLoka Layouts for Tailwind CSS',
     htmlAttrs: {
       lang: 'en'
     },
