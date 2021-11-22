@@ -102,7 +102,7 @@ alt: Chat Box
         </div>
         <!-- end chat input action -->
         <div class="w-full mx-2">
-          <input class="w-full rounded-full border border-gray-200" type="text" value="" placeholder="Aa" autofocus />
+          <input class="w-full rounded-full border border-gray-200" type="text" value="" placeholder="Aa" />
         </div>
         <!-- chat send action -->
         <div>
