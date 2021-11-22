@@ -3,8 +3,9 @@
     <input
       class="
         border border-indigo-300
-        px-2
-        py-1
+        px-3
+        py-2
+        text-sm
         focus:outline-none
         w-full
         rounded-md
@@ -33,7 +34,7 @@
       <li class="" v-for="ui of ui_list" :key="ui.slug">
         <NuxtLink
           @click.native="viewPage"
-          class="inline-block w-full p-2 font-semibold hover:bg-indigo-50"
+          class="inline-block w-full px-3 py-2 text-sm font-medium hover:bg-indigo-50"
           :to="{ name: 'ui-slug', params: { slug: ui.slug } }"
         >
           {{ ui.title }}
