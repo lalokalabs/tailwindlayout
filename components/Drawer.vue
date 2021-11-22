@@ -37,7 +37,18 @@
         p-4
       "
     >
-      <h3 class="font-bold text-xl mb-6">Layouts</h3>
+      <h3 class="font-bold text-xl mb-6">Follow</h3>
+      
+      <ul class="sidebar-navigation text-sm text-indigo-500">
+        <li>
+          <a class="block py-2" href="https://github.com/lalokalabs/tailwindlayout">Github</a>
+        </li>
+        <li>
+          <a class="block py-2" href="https://www.facebook.com/layoutsfortailwind">FB</a>
+        </li>
+      </ul>
+
+      <h3 class="font-bold text-xl my-6">Layouts</h3>
 
       <ul class="sidebar-navigation text-sm text-indigo-500">
         <li v-for="ui of ui_list">

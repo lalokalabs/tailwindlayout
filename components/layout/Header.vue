@@ -12,7 +12,9 @@
         py-4
       "
     >
-      <NuxtLink class="font-bold flex-none w-40 sm:w-72" to="/">Layouts for Tailwind CSS</NuxtLink>
+      <NuxtLink class="font-bold flex-none w-40 sm:w-72" to="/"
+        >Layouts for Tailwind CSS</NuxtLink
+      >
 
       <div class="w-full sm:w-96 mx-4">
         <AppSearchInput />
@@ -41,11 +43,11 @@
 
       <div class="hidden sm:block">
         <ul class="flex space-x-4">
-          <li class="hidden">
-            <a href="mailto:engineering@lalokalabs.co">Contact</a>
+          <li class="">
+            <a class="hover:underline" href="https://www.facebook.com/layoutsfortailwind">FB</a>
           </li>
           <li class="">
-            <a href="https://github.com/lalokalabs/tailwindlayout">Github</a>
+            <a class="hover:underline" href="https://github.com/lalokalabs/tailwindlayout">Github</a>
           </li>
         </ul>
       </div>
