@@ -22,7 +22,7 @@
           </a>
         </div>
         <div class="text-center text-xs w-full sm:w-[30rem]">
-          Tailwind CSS is a trademark of Tailwind Labs Inc, and we do not have official connection with them.
+          Tailwind CSS is a trademark of Tailwind Labs Inc, and this site contents is unofficial examples of using Tailwind CSS.
         </div>
         <a
           class="inline-flex items-center"
