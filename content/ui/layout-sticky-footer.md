@@ -4,7 +4,7 @@ description: Layout Sticky Footer
 alt: Layout Sticky Footer
 ---
 
-<p class="text-sm mb-6">Notice that the footer stick at the bottom eventhough the content is short</p>
+<p class="page-desc">Notice that the footer stick at the bottom eventhough the content is short</p>
 
 <base-snippet :centered_preview="false" custom_preview_class="h-72 p-4">
 

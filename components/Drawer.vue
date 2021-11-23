@@ -41,10 +41,10 @@
       
       <ul class="sidebar-navigation text-sm text-indigo-500">
         <li>
-          <a class="block py-2" href="https://github.com/lalokalabs/tailwindlayout">Github</a>
+          <a class="block py-2" href="https://github.com/lalokalabs/tailwindlayout" target="_blank">Github</a>
         </li>
         <li>
-          <a class="block py-2" href="https://www.facebook.com/layoutsfortailwind">FB</a>
+          <a class="block py-2" href="https://www.facebook.com/layoutsfortailwind" target="_blank">Facebook</a>
         </li>
       </ul>
 

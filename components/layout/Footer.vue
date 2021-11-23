@@ -4,34 +4,26 @@
       <div
         class="
           flex flex-col
-          sm:flex-row
+          md:flex-row
           space-y-4
           sm:space-y-0
           items-center
           justify-between
         "
       >
-        <div class="text-center">
+        <div class="text-sm text-center md:text-left md:mr-12 mb-1 md:mb-0 min-w-[230px]">
           © Copyright 2021
           <a
-            class="hover:text-gray-600 hover:underline"
+            class="text-gray-500 underline hover:text-gray-800"
             href="https://lalokalabs.co"
             target="_blank"
           >
             LaLoka Labs.
           </a>
         </div>
-        <div class="text-center text-xs w-full sm:w-[30rem]">
-          Tailwind CSS is a trademark of Tailwind Labs Inc, and this site contents is unofficial examples of using Tailwind CSS.
+        <div class="text-center md:text-right text-xs">
+          Tailwind CSS is a trademark of Tailwind Labs Inc, and this site contents are unofficial examples of using Tailwind CSS.
         </div>
-        <a
-          class="inline-flex items-center"
-          href="https://otp.dev"
-          target="_blank"
-        >
-          Sponsored by
-          <img src="/getotp-logo-twl.png" class="ml-1 w-[85px]" />
-        </a>
       </div>
     </div>
   </footer>

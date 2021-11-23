@@ -1,5 +1,5 @@
 <template>
-  <header class="shadow-sm">
+  <header class="border-b shadow-sm">
     <div
       class="
         max-w-7xl
@@ -7,16 +7,15 @@
         flex
         items-center
         justify-between
-        shadow-sm
         px-4
         py-4
       "
     >
-      <NuxtLink class="font-bold flex-none w-40 sm:w-72" to="/"
-        >Layouts for Tailwind CSS</NuxtLink
-      >
+      <NuxtLink class="font-bold flex-none" to="/">
+        <img src="/lalokalayout-logo.png" class="h-[40px]" alt="LaLoka Layouts Logo">
+      </NuxtLink>
 
-      <div class="w-full sm:w-96 mx-4">
+      <div class="w-full mx-4 sm:mx-8">
         <AppSearchInput />
       </div>
 
@@ -41,13 +40,17 @@
         </svg>
       </button>
 
-      <div class="hidden sm:block">
-        <ul class="flex space-x-4">
-          <li class="">
-            <a class="hover:underline" href="https://www.facebook.com/layoutsfortailwind">FB</a>
+      <div class="hidden sm:block min-w-[82px]">
+        <ul class="flex space-x-6">
+          <li>
+            <a href="https://www.facebook.com/layoutsfortailwind" target="_blank">
+              <img src="/facebook-logo.png" class="w-[29px] opacity-60 hover:opacity-80" alt="Facebook Logo">
+            </a>
           </li>
-          <li class="">
-            <a class="hover:underline" href="https://github.com/lalokalabs/tailwindlayout">Github</a>
+          <li>
+            <a href="https://github.com/lalokalabs/tailwindlayout" target="_blank">
+              <img src="/github-logo.png" class="w-[29px] opacity-60 hover:opacity-80"  alt="GitHub Logo">
+            </a>
           </li>
         </ul>
       </div>

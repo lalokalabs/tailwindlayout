@@ -4,7 +4,7 @@ description: Badge
 alt: Badge
 ---
 
-<h3 class="page-desc">Simple Badge</h3>
+<h3 class="section-header">Simple Badge</h3>
 
 <base-snippet>
 
@@ -42,7 +42,7 @@ alt: Badge
 
 </base-snippet>
 
-<h3 class="section-desc">Pill Badge</h3>
+<h3 class="section-header">Pill Badge</h3>
 
 <base-snippet>
 
@@ -80,7 +80,7 @@ alt: Badge
 
 </base-snippet>
 
-<h3 class="section-desc">Button Badge</h3>
+<h3 class="section-header">Button Badge</h3>
 
 <base-snippet>
 
@@ -114,7 +114,7 @@ alt: Badge
 
 </base-snippet>
 
-<h3 class="section-desc">Extract Badge class into component</h3>
+<h3 class="section-header">Extract Badge Class into Component</h3>
 
 <base-snippet :disable_preview="true">
 

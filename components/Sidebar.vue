@@ -3,7 +3,7 @@
     <ul class="sidebar-navigation text-sm text-indigo-500">
       <li v-for="ui of ui_list">
         <NuxtLink
-          class="block hover:bg-indigo-50 py-2 px-2"
+          class="block hover:bg-indigo-50 py-2 px-2 rounded"
           :to="{ name: 'ui-slug', params: { slug: ui.slug } }"
           >{{ ui.title }}</NuxtLink
         >

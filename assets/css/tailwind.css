@@ -3,29 +3,33 @@
 @tailwind utilities;
 
 .page-header {
-    @apply text-3xl mb-6;
+  @apply text-4xl my-5 font-semibold;
 }
 
 .page-desc {
-  @apply mb-6;
-}
-
-.section-desc {
-  @apply text-gray-600 text-sm my-6;
+  @apply -mt-3 mb-5 text-gray-600;
 }
 
 .section-header {
-    @apply text-2xl my-6;
+  @apply text-xl mt-8 mb-3 font-semibold text-gray-600;
+}
+
+.section-desc {
+  @apply text-gray-600 text-sm -mt-2 mb-3;
 }
 
 .btn {
-    @apply rounded-lg focus:outline-none px-4 py-1;
+  @apply rounded-md focus:outline-none px-7 py-3.5;
 }
 
 .btn-primary {
-  @apply bg-indigo-600 text-white;
+  @apply bg-indigo-600 text-white hover:bg-indigo-700;
 }
 
 .btn-lg {
-    @apply text-xl;
+  @apply text-lg;
+}
+
+.language-html {
+  margin: 0!important;
 }
