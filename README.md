@@ -1,4 +1,6 @@
-# tailwindlayout
+# LaLoka Layouts for Tailwind CSS
+
+A collection of popular layouts and patterns made with Tailwind CSS
 
 ## Build Setup
 
@@ -15,6 +17,9 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# deploy to Github Pages
+$ npm run deploy
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
