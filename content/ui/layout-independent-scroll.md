@@ -12,9 +12,8 @@ alt: Layout Independent Scroll
   <template v-slot:preview>
     <div class="h-full flex flex-col">
       <header class="bg-indigo-50 border border-indigo-300 text-xs p-2">Header</header>
-      <div class="flex-1 flex flex-col sm:flex-row overflow-y-hidden">
-        <main
-          class="flex-1 bg-indigo-50 border sm:border-t-0 sm:border-b-0 border-indigo-300 text-xs p-2 overflow-y-auto">
+      <div class="flex-1 flex flex-row overflow-y-hidden">
+        <main class="flex-1 bg-indigo-50 border-l border-r border-indigo-300 text-xs p-2 overflow-y-auto">
           <div class="leading-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been
             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
@@ -36,8 +35,7 @@ alt: Layout Independent Scroll
             including
             versions of Lorem Ipsum.</div>
         </main>
-        <nav
-          class="order-first sm:w-32 bg-indigo-50 text-xs p-2 border-l border-r sm:border-r-0 border-indigo-300 overflow-y-auto">
+        <nav class="order-first w-20 sm:w-32 bg-indigo-50 text-xs p-2 border-l border-indigo-300 overflow-y-auto">
           <ul class="text-xs">
             <li><a href="#" class="block hover:bg-indigo-50 py-2 px-2 rounded">Avatar</a></li>
             <li><a href="#" class="block hover:bg-indigo-50 py-2 px-2 rounded">Avatar Initial</a></li>
@@ -49,8 +47,7 @@ alt: Layout Independent Scroll
             <li><a href="#" class="block hover:bg-indigo-50 py-2 px-2 rounded">Card Stacked</a></li>
           </ul>
         </nav>
-        <aside
-          class="sm:w-32 bg-indigo-50 text-xs p-2 border-r border-l sm:border-l-0 border-indigo-300 overflow-y-auto">
+        <aside class="w-20 sm:w-32 bg-indigo-50 text-xs p-2 border-r border-indigo-300 overflow-y-auto">
           <ul class="text-xs">
             <li><a href="#" class="block hover:bg-indigo-50 py-2 px-2 rounded">Avatar</a></li>
             <li><a href="#" class="block hover:bg-indigo-50 py-2 px-2 rounded">Avatar Initial</a></li>
@@ -76,7 +73,7 @@ alt: Layout Independent Scroll
   <div class="min-h-screen flex flex-col h-screen">
     <header class="bg-red-50">Header</header>
     <!-- main container -->
-    <div class="flex-1 flex flex-col sm:flex-row overflow-y-hidden">
+    <div class="flex-1 flex flex-row overflow-y-hidden">
       <main class="flex-1 bg-indigo-100 overflow-y-auto">Content here</main>
 
       <nav class="order-first sm:w-32 bg-purple-200 overflow-y-auto">Sidebar</nav>
@@ -90,7 +87,7 @@ alt: Layout Independent Scroll
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/PxLOJU77AP">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/hM64tmFSLd">Live Edit</a>
   </template>
 
 </base-snippet>
