@@ -1,6 +1,6 @@
 const type = "website";
-const url = "https://tailwindlayout.lalokalabs.dev/";
-const title = "Tailwind Layout";
+const url = "https://layoutsfortailwind.lalokalabs.dev";
+const title = "LaLoka Layouts for Tailwind CSS";
 const description = "A collection of useful Tailwind CSS layouts and patterns";
 const mainImage = "/og-img.png";
 const twitterSite = "@lalokalabs";
