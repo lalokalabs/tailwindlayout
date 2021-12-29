@@ -10,7 +10,7 @@ alt: Overlay Loading
     <!-- card -->
     <div class="max-w-sm flex flex-col rounded-lg overflow-hidden bg-white shadow-lg relative">
       <!-- loading overlay -->
-      <div class="absolute bg-white opacity-60 z-10 h-full w-full flex items-center justify-center">
+      <div class="absolute bg-white bg-opacity-60 z-10 h-full w-full flex items-center justify-center">
         <div class="flex items-center">
           <span class="text-3xl mr-4">Loading</span>
           <!-- loading icon -->
@@ -54,7 +54,7 @@ alt: Overlay Loading
 
     <!-- loading overlay -->
 
-    <div class="absolute bg-white opacity-60 z-10 h-full w-full flex items-center justify-center">
+    <div class="absolute bg-white bg-opacity-60 z-10 h-full w-full flex items-center justify-center">
       <div class="flex items-center">
         <span class="text-3xl mr-4">Loading</span>
         <!-- loading icon -->
@@ -74,7 +74,7 @@ alt: Overlay Loading
   ```
 
   <template v-slot:source>
-    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/3NJwWTk1rV">Live Edit</a>
+    <a class="btn btn-primary btn-lg" href="https://play.tailwindcss.com/iD2XjOz2rp">Live Edit</a>
   </template>
 
 </base-snippet>
