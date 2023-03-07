@@ -1,7 +1,7 @@
 <template>
   <header class="border-b shadow-sm">
     <div class="bg-indigo-50 bg-opacity-50 border-b border-indigo-50 px-2 py-2 text-center">
-      <a class="text-sm text-indigo-500 font-medium hover:underline" href="https://getotp.dev"
+      <a class="text-sm text-indigo-500 font-medium hover:underline" href="https://getotp.dev/?utm_source=lalokalayouts"
         >Need OTP verification for your app? Forget custom code and try GetOTP
         now!</a
       >

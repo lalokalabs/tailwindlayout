@@ -1,7 +1,7 @@
 <template>
   <article>
     <!-- ads -->
-    <a href="https://kafkai.com" target="_blank">
+    <a href="https://kafkai.com/en/?utm_source=lalokalayouts" target="_blank">
       <div
         class="
           text-white text-center
