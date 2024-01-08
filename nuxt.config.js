@@ -1,4 +1,4 @@
-import getSiteMeta from './utils/getSiteMeta';
+import getSiteMeta from "./utils/getSiteMeta";
 
 const meta = getSiteMeta();
 
@@ -7,38 +7,37 @@ export default {
   ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  target: "static",
 
   router: {
-    base: '/'
+    base: "/"
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'LaLoka Layouts for Tailwind CSS',
-    titleTemplate: '%s - LaLoka Layouts for Tailwind CSS',
+    title: "LaLoka Layouts for Tailwind CSS",
+    titleTemplate: "%s - LaLoka Layouts for Tailwind CSS",
     htmlAttrs: {
-      lang: 'en'
+      lang: "en"
     },
     meta: [
       ...meta,
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { name: 'google-site-verification', content: process.env.GOOGLE_SITE_VERIFICATION_ID }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "format-detection", content: "telephone=no" },
+      {
+        name: "google-site-verification",
+        content: process.env.GOOGLE_SITE_VERIFICATION_ID
+      }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [{ src: "~/plugins/vue-gtag.js", mode: "client" }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -46,34 +45,31 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics'
+    "@nuxtjs/tailwindcss"
+    // "@nuxtjs/google-analytics"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    '@nuxt/content'
-  ],
+  modules: ["@nuxt/content"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  },
+  build: {},
 
   tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css'
+    cssPath: "~/assets/css/tailwind.css"
   },
 
   content: {
     liveEdit: false,
     markdown: {
       prism: {
-        theme: 'prism-themes/themes/prism-material-oceanic.css'
+        theme: "prism-themes/themes/prism-material-oceanic.css"
       }
     }
   },
 
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+    baseUrl: process.env.BASE_URL || "http://localhost:3000"
   },
 
   googleAnalytics: {
@@ -82,10 +78,12 @@ export default {
 
   generate: {
     async routes() {
-      const { $content } = require('@nuxt/content')
-      const files = await $content({ deep: true }).only(['path']).fetch()
+      const { $content } = require("@nuxt/content");
+      const files = await $content({ deep: true })
+        .only(["path"])
+        .fetch();
 
-      return files.map(file => file.path === '/index' ? '/' : file.path)
+      return files.map(file => (file.path === "/index" ? "/" : file.path));
     }
   }
-}
+};
