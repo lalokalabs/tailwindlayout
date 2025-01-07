@@ -1,11 +1,12 @@
 <template>
   <header class="border-b shadow-sm">
-    <div class="bg-indigo-50 bg-opacity-50 border-b border-indigo-50 px-2 py-2 text-center">
-      <a class="text-sm text-indigo-500 font-medium hover:underline" href="https://getotp.dev/?utm_source=lalokalayouts"
-        >Need OTP verification for your app? Forget custom code and try GetOTP
-        now!</a
+    <div class="bg-lime-50 px-2 py-2 border-b border-lime-100 text-center">
+      <a class="text-gray-900 font-medium hover:underline" :href="current_promo_link.url" 
+        >{{ current_promo_link.text }}</a
       >
     </div>
+
+    
     <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
       <NuxtLink class="font-bold flex-none" to="/">
         <img
@@ -74,10 +75,24 @@
 
 <script>
 export default {
-  methods: {
-    toggleDrawer() {
-      $nuxt.$emit("toggleDrawer");
-    },
+  data() {
+    return {
+      promo_links: {
+        home: {
+          url: 'https://kafkai.com/en/free-seo-strategic-analysis/?mtm_campaign=LaLokaLayouts&mtm_kwd=top-page&mtm_source=group-site&mtm_medium=web',
+          text: 'Trouble with ranking content? Start with our free SEO Strategy Analysis and compete better!'
+        },
+        other: {
+          url: 'https://kafkai.com/en/free-seo-strategic-analysis/?mtm_campaign=LaLokaLayouts&mtm_kwd=sub-page&mtm_source=group-site&mtm_medium=web',
+          text: 'Trouble with ranking content? Start with our free SEO Strategy Analysis and compete better!'
+        }
+      }
+    }
   },
-};
+  computed: {
+    current_promo_link() {
+      return this.$route.path === '/' ? this.promo_links.home : this.promo_links.other
+    }
+  }
+}
 </script>
