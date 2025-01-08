@@ -11,7 +11,7 @@ alt: Layout Sidebar
       <nav class="w-20 sm:w-56 flex-none bg-indigo-200 border-r border-indigo-300 p-2">
         Sidebar
       </nav>
-      <main class="flex-1 min-w-0 overflow-auto bg-indigo-50 p-2">
+      <main class="flex-1 w-full min-w-0 overflow-auto bg-indigo-50 p-2">
         <div class="mb-12">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
           standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -44,7 +44,7 @@ alt: Layout Sidebar
     Sidebar
   </nav>
 
-  <main class="flex-1 min-w-0 overflow-auto ...">
+  <main class="flex-1 w-full min-w-0 overflow-auto ...">
     ...
   </main>
 </div>

@@ -1,23 +1,28 @@
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   purge: {
     content: [
-      'components/**/*.vue',
-      'content/**/*.md',
-      'layouts/**/*.vue',
-      'pages/**/*.vue',
-      'plugins/**/*.js',
-      'nuxt.config.js'
+      "components/**/*.vue",
+      "content/**/*.md",
+      "layouts/**/*.vue",
+      "pages/**/*.vue",
+      "plugins/**/*.js",
+      "nuxt.config.js"
     ]
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lime: {
+          50: "#f7fee7",
+          100: "#ecfccb"
+        }
+      }
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
-}
+  plugins: [require("@tailwindcss/forms")]
+};
